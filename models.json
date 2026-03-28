@@ -1,0 +1,109 @@
+{
+  "last_updated": "2026-03-28T08:00:00Z",
+  "models": [
+    {
+      "id": "gpt-4o-2024-11-20",
+      "name": "GPT-4o (Nov 2024)",
+      "provider": "OpenAI",
+      "release_date": "2024-11-20",
+      "description": "Updated GPT-4o with improved instruction-following, better creative writing and lower refusals.",
+      "announcement_url": "https://openai.com/index/gpt-4o-november-2024/"
+    },
+    {
+      "id": "o3-mini-2025-01-31",
+      "name": "o3-mini",
+      "provider": "OpenAI",
+      "release_date": "2025-01-31",
+      "description": "OpenAI's cost-efficient small reasoning model with strong STEM performance.",
+      "announcement_url": "https://openai.com/index/openai-o3-mini/"
+    },
+    {
+      "id": "gpt-4-5-2025-02-27",
+      "name": "GPT-4.5",
+      "provider": "OpenAI",
+      "release_date": "2025-02-27",
+      "description": "OpenAI's largest and most capable model with improved emotional intelligence and world knowledge.",
+      "announcement_url": "https://openai.com/index/introducing-gpt-4-5/"
+    },
+    {
+      "id": "claude-3-7-sonnet-2025-02-24",
+      "name": "Claude 3.7 Sonnet",
+      "provider": "Anthropic",
+      "release_date": "2025-02-24",
+      "description": "Anthropic's most intelligent model yet, featuring extended thinking for complex reasoning tasks.",
+      "announcement_url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "id": "claude-3-5-sonnet-2024-10-22",
+      "name": "Claude 3.5 Sonnet (Oct 2024)",
+      "provider": "Anthropic",
+      "release_date": "2024-10-22",
+      "description": "Upgraded Claude 3.5 Sonnet with improved coding, computer use capability, and stronger reasoning.",
+      "announcement_url": "https://www.anthropic.com/news/claude-3-5-sonnet-october-2024"
+    },
+    {
+      "id": "gemini-2-0-flash-2025-02-05",
+      "name": "Gemini 2.0 Flash",
+      "provider": "Google",
+      "release_date": "2025-02-05",
+      "description": "Google's workhorse model for the Gemini 2.0 era — fast, efficient, and multimodal with improved performance.",
+      "announcement_url": "https://blog.google/technology/google-deepmind/gemini-2-flash-thinking/"
+    },
+    {
+      "id": "gemini-2-0-pro-exp-2025-02-05",
+      "name": "Gemini 2.0 Pro (Experimental)",
+      "provider": "Google",
+      "release_date": "2025-02-05",
+      "description": "Google's best Gemini 2.0 model for coding and complex world knowledge tasks.",
+      "announcement_url": "https://blog.google/technology/google-deepmind/gemini-2-pro-experimental/"
+    },
+    {
+      "id": "llama-3-3-70b-2024-12-06",
+      "name": "Llama 3.3 70B",
+      "provider": "Meta",
+      "release_date": "2024-12-06",
+      "description": "Meta's latest open-source 70B model matching the performance of much larger models.",
+      "announcement_url": "https://ai.meta.com/blog/llama-3-3/"
+    },
+    {
+      "id": "llama-4-scout-2025-04-05",
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "release_date": "2025-04-05",
+      "description": "Meta's first Llama 4 model — a mixture-of-experts architecture with a 10M token context window.",
+      "announcement_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "id": "mistral-small-3-2025-01-30",
+      "name": "Mistral Small 3",
+      "provider": "Mistral",
+      "release_date": "2025-01-30",
+      "description": "Mistral's efficient 24B model with best-in-class latency, released under Apache 2.0.",
+      "announcement_url": "https://mistral.ai/news/mistral-small-3/"
+    },
+    {
+      "id": "mistral-large-2-2024-07-24",
+      "name": "Mistral Large 2",
+      "provider": "Mistral",
+      "release_date": "2024-07-24",
+      "description": "Mistral's frontier model with strong code, math and reasoning capabilities.",
+      "announcement_url": "https://mistral.ai/news/mistral-large-2407/"
+    },
+    {
+      "id": "grok-3-2025-02-17",
+      "name": "Grok 3",
+      "provider": "xAI",
+      "release_date": "2025-02-17",
+      "description": "xAI's most powerful model, trained on the Colossus supercluster with advanced reasoning modes.",
+      "announcement_url": "https://x.ai/blog/grok-3"
+    },
+    {
+      "id": "command-r-plus-2024-08-01",
+      "name": "Command R+ (Aug 2024)",
+      "provider": "Cohere",
+      "release_date": "2024-08-01",
+      "description": "Cohere's flagship model for complex enterprise RAG and multi-step tool use scenarios.",
+      "announcement_url": "https://cohere.com/blog/command-r-plus-microsoft-azure"
+    }
+  ]
+}

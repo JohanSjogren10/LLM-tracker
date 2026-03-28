@@ -1,0 +1,68 @@
+name: Fetch Latest LLM Models
+
+on:
+  schedule:
+    # Runs every day at 08:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Set up Python ─────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # ── 3. Install dependencies ──────────────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install feedparser requests
+
+      # ── 4. Fetch & update models.json ────────────────────────────────────
+      - name: Fetch latest model releases
+        id: fetch
+        run: python .github/scripts/fetch_models.py
+
+      # ── 5. Commit if changes were made ───────────────────────────────────
+      - name: Commit updated models.json
+        if: steps.fetch.outputs.new_models != ''
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add models.json
+          git commit -m "chore: update models.json with new releases [skip ci]"
+          git push
+
+      # ── 6. Send email notification ───────────────────────────────────────
+      - name: Send email notification
+        if: steps.fetch.outputs.new_models != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port:    ${{ secrets.SMTP_PORT }}
+          username:       ${{ secrets.SMTP_USERNAME }}
+          password:       ${{ secrets.SMTP_PASSWORD }}
+          secure:         true
+          to:             Johan.sjogren@tieto.com
+          from:           LLM Tracker <${{ secrets.SMTP_USERNAME }}>
+          subject:        "🚀 New LLM Model(s) Released: ${{ steps.fetch.outputs.new_models }}"
+          body: |
+            New LLM model(s) have been detected and added to the tracker!
+
+            ${{ steps.fetch.outputs.email_body }}
+
+            ---
+            View the full dashboard at:
+            https://JohanSjogren10.github.io/LLM-tracker
+
+            This alert was sent automatically by LLM Tracker.
