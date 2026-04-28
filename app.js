@@ -1,5 +1,30 @@
 /* app.js — LLM Tracker frontend logic */
 
+// ── Theme toggle ───────────────────────────────────────────────
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  const icon  = document.getElementById('theme-toggle-icon');
+  const label = document.getElementById('theme-toggle-label');
+  if (theme === 'light') {
+    icon.textContent  = '🌙';
+    label.textContent = 'Dark';
+  } else {
+    icon.textContent  = '☀️';
+    label.textContent = 'Light';
+  }
+}
+
+function initTheme() {
+  const saved = localStorage.getItem('llm-tracker-theme') || 'dark';
+  applyTheme(saved);
+  document.getElementById('theme-toggle').addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    const next = current === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('llm-tracker-theme', next);
+    applyTheme(next);
+  });
+}
+
 const PROVIDER_ICONS = {
   'OpenAI': '🟢',
   'Anthropic': '🟠',
@@ -107,4 +132,7 @@ async function loadModels() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', loadModels);
+document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
+  loadModels();
+});
