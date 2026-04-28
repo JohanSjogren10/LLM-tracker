@@ -1,5 +1,5 @@
 /* ============================================================
-   LLM Tracker — Dark Mode Styles
+   LLM Tracker — Theme Styles (dark default, light optional)
    ============================================================ */
 
 :root {
@@ -17,6 +17,21 @@
   --font:          'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --radius:        10px;
   --shadow:        0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="light"] {
+  --bg-primary:    #f6f8fa;
+  --bg-secondary:  #ffffff;
+  --bg-card:       #ffffff;
+  --bg-card-hover: #f0f3f6;
+  --border:        #d0d7de;
+  --text-primary:  #1f2328;
+  --text-secondary:#636c76;
+  --accent:        #0969da;
+  --accent-hover:  #0550ae;
+  --success:       #1a7f37;
+  --warning:       #9a6700;
+  --shadow:        0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 /* ── Reset & Base ─────────────────────────────────────────── */
@@ -46,11 +61,36 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   border-bottom: 1px solid var(--border);
   padding: 1.5rem 1rem;
   text-align: center;
+  position: relative;
 }
 
 .header-inner {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1.25rem;
+  transform: translateY(-50%);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: var(--font);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
 }
 
 .logo {
@@ -228,7 +268,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   top: -0.6rem;
   right: 0.75rem;
   background: var(--success);
-  color: #0d1117;
+  color: var(--bg-primary);
   font-size: 0.65rem;
   font-weight: 700;
   padding: 0.1rem 0.4rem;
