@@ -231,10 +231,16 @@ def send_email(new_models: list[dict]) -> None:
         print("[INFO] No notification recipients configured — skipping email.", file=sys.stderr)
         return
 
-    for model in new_models:
-        subject = f"🚀 New LLM Released: {model['model']} by {model['provider']}"
+    try:
+        with smtplib.SMTP(smtp_server, smtp_port) as smtp_conn:
+            smtp_conn.ehlo()
+            smtp_conn.starttls()
+            smtp_conn.login(smtp_user, smtp_password)
 
-        body_html = f"""\
+            for model in new_models:
+                subject = f"🚀 New LLM Released: {model['model']} by {model['provider']}"
+
+                body_html = f"""\
 <html>
 <body style="font-family: Arial, sans-serif; background: #0d1117; color: #e6edf3; padding: 20px;">
   <h2 style="color: #58a6ff;">🚀 New LLM Detected!</h2>
@@ -271,22 +277,20 @@ def send_email(new_models: list[dict]) -> None:
 </html>
 """
 
-        for recipient in recipients:
-            msg = MIMEMultipart("alternative")
-            msg["Subject"] = subject
-            msg["From"] = smtp_user
-            msg["To"] = recipient
-            msg.attach(MIMEText(body_html, "html"))
+                for recipient in recipients:
+                    msg = MIMEMultipart("alternative")
+                    msg["Subject"] = subject
+                    msg["From"] = smtp_user
+                    msg["To"] = recipient
+                    msg.attach(MIMEText(body_html, "html"))
 
-            try:
-                with smtplib.SMTP(smtp_server, smtp_port) as server:
-                    server.ehlo()
-                    server.starttls()
-                    server.login(smtp_user, smtp_password)
-                    server.sendmail(smtp_user, [recipient], msg.as_string())
-                print(f"[INFO] Email sent for {model['model']} to {recipient}")
-            except smtplib.SMTPException as exc:
-                print(f"[ERROR] Failed to send email to {recipient}: {exc}", file=sys.stderr)
+                    try:
+                        smtp_conn.sendmail(smtp_user, [recipient], msg.as_string())
+                        print(f"[INFO] Email sent for {model['model']} to {recipient}")
+                    except smtplib.SMTPException as exc:
+                        print(f"[ERROR] Failed to send email to {recipient}: {exc}", file=sys.stderr)
+    except smtplib.SMTPException as exc:
+        print(f"[ERROR] Failed to connect to SMTP server: {exc}", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-app.py — LLM Tracker backend
+server.py — LLM Tracker backend
 
 A lightweight Flask server that:
   - Serves the static frontend
@@ -80,13 +80,13 @@ def init_db() -> None:
 # Validation helpers
 # ---------------------------------------------------------------------------
 
-EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+EMAIL_RE = re.compile(r"^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$")
 MIN_PASSWORD_LEN = 8
 
 
 def _validate_registration(email: str, password: str) -> str | None:
     """Return an error message or None if valid."""
-    if not email or not EMAIL_RE.match(email):
+    if not email or len(email) > 254 or not EMAIL_RE.match(email):
         return "A valid email address is required."
     if not password or len(password) < MIN_PASSWORD_LEN:
         return f"Password must be at least {MIN_PASSWORD_LEN} characters."
