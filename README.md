@@ -98,7 +98,33 @@ LLM-tracker/
 
 The site is deployed automatically on every push to `main` via the `deploy.yml` workflow.
 
-To enable GitHub Pages on a new fork:
-1. Go to **Settings → Pages**
-2. Set **Source** to **GitHub Actions**
-3. Push any commit to `main` to trigger the first deployment
+**Before the first deployment will succeed**, you must enable GitHub Pages manually:
+
+1. Go to **Settings → Pages** in your repository
+2. Under **Build and deployment → Source**, select **GitHub Actions**
+3. Click **Save**
+4. Push any commit to `main` (or re-run the workflow from the Actions tab) to trigger the first deployment
+
+> **Note:** GitHub Pages is free for public repositories. For private repos, a GitHub Pro/Team/Enterprise plan is required.
+
+---
+
+## Running Locally
+
+Since this is a plain HTML/CSS/JS site, you can preview it locally with any static file server:
+
+```bash
+# Clone the repo
+git clone https://github.com/JohanSjogren10/LLM-tracker.git
+cd LLM-tracker
+
+# Option 1 — Python (built-in)
+python3 -m http.server 8000
+
+# Option 2 — Node.js (if you have npx)
+npx serve .
+```
+
+Then open **http://localhost:8000** in your browser.
+
+> **Tip:** Opening `index.html` directly as a file won't work because the browser blocks `fetch()` requests from `file://` URLs. Always use a local server.
