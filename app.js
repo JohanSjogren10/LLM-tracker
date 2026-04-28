@@ -32,6 +32,7 @@ const PROVIDER_ICONS = {
   'Meta': '🔷',
   'Mistral': '🟣',
   'xAI': '⚡',
+  'DeepSeek': '🔶',
   'Amazon': '🟡',
 };
 

@@ -1,66 +1,185 @@
 [
   {
     "provider": "OpenAI",
+    "model": "GPT-5.5",
+    "date": "2026-04-23",
+    "url": "https://openai.com/index/gpt-5-5/",
+    "description": "OpenAI's latest flagship model with strong agentic coding, knowledge work, and autonomous task execution."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-5.4",
+    "date": "2026-03-05",
+    "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+    "description": "GPT-5.4 with Thinking and Pro modes, top-tier reasoning and 1M token context window."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-5",
+    "date": "2025-08-01",
+    "url": "https://openai.com/index/gpt-5/",
+    "description": "OpenAI's unified GPT-5 with Instant and Thinking modes for general and deep reasoning tasks."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "o3-pro",
+    "date": "2025-06-10",
+    "url": "https://openai.com/index/o3-pro/",
+    "description": "OpenAI's most rigorous reasoning model designed for extremely challenging math, science and coding."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "o4-mini",
+    "date": "2025-04-16",
+    "url": "https://openai.com/index/o4-mini/",
+    "description": "Fast, lightweight reasoning model succeeding o3-mini with improved speed and efficiency."
+  },
+  {
+    "provider": "OpenAI",
     "model": "o3",
     "date": "2025-04-16",
-    "url": "https://openai.com/blog/o3",
-    "description": "OpenAI's most powerful reasoning model, excelling at complex math, science and coding tasks."
+    "url": "https://openai.com/index/o3/",
+    "description": "OpenAI's powerful reasoning model excelling at complex math, science and coding tasks."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4.1",
+    "date": "2025-04-14",
+    "url": "https://openai.com/index/gpt-4-1/",
+    "description": "Optimized for coding and instruction-following with up to 1M token context window."
   },
   {
     "provider": "OpenAI",
     "model": "GPT-4.5",
     "date": "2025-02-27",
-    "url": "https://openai.com/blog/gpt-4-5",
-    "description": "OpenAI's largest and most capable GPT model with enhanced world knowledge and reasoning."
-  },
-  {
-    "provider": "OpenAI",
-    "model": "o1",
-    "date": "2024-12-05",
-    "url": "https://openai.com/blog/o1",
-    "description": "OpenAI's full o1 model with advanced reasoning capabilities for science and coding."
+    "url": "https://openai.com/index/gpt-4-5/",
+    "description": "Large-scale GPT model with enhanced world knowledge and reduced hallucinations."
   },
   {
     "provider": "Anthropic",
-    "model": "Claude 3.7 Sonnet",
-    "date": "2025-02-24",
-    "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
-    "description": "Anthropic's most intelligent model with extended thinking and coding capabilities."
+    "model": "Claude Opus 4.7",
+    "date": "2026-04-16",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "description": "Anthropic's most powerful model. #1 on SWE-bench (82%) and LM Arena (1504 Elo) with exceptional coding and reasoning."
   },
   {
     "provider": "Anthropic",
-    "model": "Claude 3.5 Haiku",
-    "date": "2024-11-04",
-    "url": "https://www.anthropic.com/news/claude-3-5-haiku",
-    "description": "Anthropic's fastest and most compact model for near-instant responsiveness."
+    "model": "Claude Sonnet 4.6",
+    "date": "2026-02-17",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "description": "Fast, high-performance coding model with improved reasoning over Sonnet 4.5."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.6",
+    "date": "2026-02-05",
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "description": "Intermediate Opus upgrade with enhanced agentic orchestration and coding capabilities."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.5",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/news/claude-opus-4-5",
+    "description": "Major Opus upgrade with state-of-the-art coding benchmarks and advanced reasoning."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Haiku 4.5",
+    "date": "2025-10-15",
+    "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+    "description": "Anthropic's fastest model with significantly improved capabilities at low cost."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4.5",
+    "date": "2025-09-29",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "description": "High-speed coding and reasoning model with major improvements over Sonnet 4."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "description": "Anthropic's flagship model excelling at complex, long-running coding and agentic tasks."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "description": "Improved coding and reasoning model available to free and paid users via API and integrations."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.1 Pro",
+    "date": "2026-02-19",
+    "url": "https://deepmind.google/models/gemini-3-1-pro/",
+    "description": "Google's most advanced model with 2M token context, Deep Think reasoning and top multilingual scores."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3 Pro",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Next-gen Gemini with 2x reasoning improvement and advanced multimodal and agentic features."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5 Pro",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Flagship reasoning and coding model with 1M token context and 100% on AIME 2025 math."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5 Flash",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/technologies/gemini/flash/",
+    "description": "Fast, efficient model optimized for enterprise and developer use with thinking capabilities."
   },
   {
     "provider": "Google DeepMind",
     "model": "Gemini 2.0 Flash",
     "date": "2025-02-05",
     "url": "https://deepmind.google/technologies/gemini/flash/",
-    "description": "Google's next-generation multimodal model with improved speed and performance."
+    "description": "Multimodal model with improved speed and performance for general-purpose tasks."
   },
   {
-    "provider": "Google DeepMind",
-    "model": "Gemini 2.0 Pro",
-    "date": "2025-02-05",
-    "url": "https://deepmind.google/technologies/gemini/",
-    "description": "Google's most capable Gemini 2.0 model with enhanced reasoning and coding."
+    "provider": "Meta",
+    "model": "Llama 4 Maverick",
+    "date": "2025-04-05",
+    "url": "https://ai.meta.com/blog/llama-4/",
+    "description": "400B parameter MoE model with 1M token context, high efficiency for general AI tasks."
+  },
+  {
+    "provider": "Meta",
+    "model": "Llama 4 Scout",
+    "date": "2025-04-05",
+    "url": "https://ai.meta.com/blog/llama-4/",
+    "description": "Open-weight model with ultra-long 10M token context window and multimodal capabilities."
   },
   {
     "provider": "Meta",
     "model": "Llama 3.3 70B",
     "date": "2024-12-06",
     "url": "https://ai.meta.com/blog/llama-3-3/",
-    "description": "Meta's latest Llama 3.3 model delivering Llama 3.1 405B quality at 70B size."
+    "description": "Llama 3.3 delivering Llama 3.1 405B quality at 70B size for efficient deployment."
   },
   {
-    "provider": "Meta",
-    "model": "Llama 3.2",
-    "date": "2024-09-25",
-    "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
-    "description": "Meta's multimodal Llama models including vision and lightweight edge models."
+    "provider": "Mistral",
+    "model": "Codestral 25.01",
+    "date": "2025-01-14",
+    "url": "https://docs.mistral.ai/models/model-cards/codestral/",
+    "description": "Specialized code model supporting 80+ languages with 256K context and fill-in-the-middle."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Small 3.1",
+    "date": "2025-03-12",
+    "url": "https://mistral.ai/news/mistral-small-3-1/",
+    "description": "Compact multimodal model with vision support and 128k context window."
   },
   {
     "provider": "Mistral",
@@ -70,25 +189,32 @@
     "description": "Mistral's flagship model with state-of-the-art reasoning and coding capabilities."
   },
   {
-    "provider": "Mistral",
-    "model": "Mistral Small 3.1",
-    "date": "2025-03-12",
-    "url": "https://mistral.ai/news/mistral-small-3-1/",
-    "description": "Mistral's compact multimodal model with vision support and 128k context."
+    "provider": "xAI",
+    "model": "Grok 4",
+    "date": "2025-07-09",
+    "url": "https://x.ai/news/grok-4",
+    "description": "xAI's most powerful model with advanced reasoning, multi-agent orchestration and coding tools."
   },
   {
     "provider": "xAI",
     "model": "Grok 3",
     "date": "2025-02-17",
     "url": "https://x.ai/blog/grok-3",
-    "description": "xAI's most powerful model, trained on the Colossus supercluster with deep reasoning."
+    "description": "Trained on the Colossus supercluster with deep reasoning and strong benchmark performance."
   },
   {
-    "provider": "xAI",
-    "model": "Grok 3 Mini",
-    "date": "2025-02-17",
-    "url": "https://x.ai/blog/grok-3",
-    "description": "xAI's lightweight reasoning model optimized for speed and efficiency."
+    "provider": "DeepSeek",
+    "model": "DeepSeek-R1",
+    "date": "2025-01-20",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "description": "Open-weight reasoning model rivaling top proprietary models at a fraction of training cost."
+  },
+  {
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V3",
+    "date": "2024-12-26",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "description": "Powerful open-source MoE model with strong coding performance and 1M context window."
   },
   {
     "provider": "Amazon",
@@ -102,6 +228,6 @@
     "model": "Nova Lite",
     "date": "2024-12-03",
     "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
-    "description": "Amazon's very low cost multimodal model lightning-fast for text, image and video."
+    "description": "Amazon's low cost multimodal model for lightning-fast text, image and video tasks."
   }
 ]
