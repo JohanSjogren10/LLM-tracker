@@ -1,10 +1,472 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.1 Flash TTS",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+    "description": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics-ER 1.6",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "description": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.1 Flash Live",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+    "description": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Lyria 3 Pro",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
+    "description": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.1 Flash-Lite",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+    "description": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Nano Banana 2",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+    "description": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "A new way to express yourself",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+    "description": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3 Deep Think",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+    "description": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Accelerating Mathematical",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+    "description": "Research papers point to the growing impact of Deep Think across fields"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Project Genie",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
+    "description": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3 Flash",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
+    "description": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemma Scope 2",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
+    "description": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Improved Gemini audio models for powerful voice experiences",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "How we’re bringing AI image verification to the Gemini app",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Nano Banana Pro",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/introducing-nano-banana-pro/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Start building",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "A new era of intelligence",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "WeatherNext 2",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model/",
+    "description": "The new AI model delivers more efficient, more accurate and higher-resolution global weather predictions."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "SIMA 2",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
+    "description": "Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "How AI is giving Northern Ireland teachers time back",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
+    "description": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "AlphaEarth Foundations helps map our planet in unprecedented detail",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
+    "description": "New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Advanced version of Gemini",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+    "description": "The International Mathematical Olympiad (“IMO”) is the world’s most prestigious competition for young mathematicians, and has been held annually since 1959. Each country taking part is represented by"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Aeneas transforms how historians connect the past",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+    "description": "Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "How AI is helping advance the science of bioacoustics to save endangered species",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/",
+    "description": "Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/",
+    "description": "Gemini 2.5 Deep Think achieves breakthrough performance at the world’s most prestigious computer programming competition, demonstrating a profound leap in abstract problem solving."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics 1.5 brings AI agents into the physical world",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+    "description": "We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Try Deep Think in the Gemini app",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/try-deep-think-in-the-gemini-app/",
+    "description": "We're rolling out Deep Think in the Gemini app for Google AI Ultra subscribers, and we're giving select mathematicians access to the full version of the Gemini 2.5 Deep Think model entered into the IM"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemma 3 270M",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/introducing-gemma-3-270m-the-compact-model-for-hyper-efficient-ai/",
+    "description": "Today, we're adding a new, highly specialized tool to the Gemma 3 toolkit: Gemma 3 270M, a compact, 270-million parameter model."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Image editing in Gemini just got a major upgrade",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/image-editing-in-gemini-just-got-a-major-upgrade/",
+    "description": "Transform images in amazing new ways with updated native image editing in the Gemini app."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "VaultGemma",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/",
+    "description": "We introduce VaultGemma, the most capable model trained from scratch with differential privacy."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "the Gemini 2.5 Computer Use model",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/introducing-the-gemini-25-computer-use-model/",
+    "description": "Available in preview via the API, our Computer Use model is a specialized model built on Gemini 2.5 Pro’s capabilities to power agents that can interact with user interfaces."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "How a Gemma model helped discover a new potential cancer therapy pathway",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/",
+    "description": "We’re launching a new 27 billion parameter foundation model for single-cell analysis built on the Gemma family of open models."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "AlphaGenome",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+    "description": "Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics On-Device brings AI to local robotic devices",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+    "description": "We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "We’re expanding our Gemini 2.5 family of models",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/",
+    "description": "Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-25-updates-to-our-family-of-thinking-models/",
+    "description": "Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Advanced audio dialog",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/",
+    "description": "Gemini 2.5 has new capabilities in AI-powered audio dialog and generation."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemma 3n preview",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/",
+    "description": "Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, unique flexibility with a 2-in-1 model, and expanded multimodal understanding with a"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Our vision for building a universal AI assistant",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/our-vision-for-building-a-universal-ai-assistant/",
+    "description": "We’re extending Gemini to become a world model that can make plans and imagine new experiences by simulating aspects of the world."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Advancing Gemini's security safeguards",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/advancing-geminis-security-safeguards/",
+    "description": "We’ve made Gemini 2.5 our most secure model family to date."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/",
+    "description": "Gemini 2.5 Pro continues to be loved by developers as the best model for coding, and 2.5 Flash is getting even better with a new update. We’re bringing new capabilities to our models, including Deep T"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "AlphaEvolve",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "description": "New AI agent evolves algorithms for math and practical applications in computing by combining the creativity of large language models with automated evaluators"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Generate videos in Gemini",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/generate-videos-in-gemini-and-whisk-with-veo-2/",
+    "description": "Transform text-based prompts into high-resolution eight-second videos in Gemini Advanced and use Whisk Animate to turn images into eight-second animated clips."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "DolphinGemma",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/dolphingemma-how-google-ai-is-helping-decode-dolphin-communication/",
+    "description": "DolphinGemma, a large language model developed by Google, is helping scientists study how dolphins communicate — and hopefully find out what they're saying, too."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-2-5-our-most-intelligent-ai-model/",
+    "description": "Gemini 2.5 is our most intelligent AI model, now with thinking built in."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics brings AI into the physical world",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+    "description": "Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemma 3",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/introducing-gemma-3/",
+    "description": "The most capable model you can run on a single GPU or TPU."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.0 is now available to everyone",
+    "date": "2026-04-29",
+    "url": "https://deepmind.google/blog/gemini-2-0-is-now-available-to-everyone/",
+    "description": "We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI models, Codex,",
+    "date": "2026-04-28",
+    "url": "https://openai.com/index/openai-on-aws",
+    "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Our commitment to community safety",
+    "date": "2026-04-28",
+    "url": "https://openai.com/index/our-commitment-to-community-safety",
+    "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts."
+  },
+  {
     "provider": "OpenAI",
     "model": "GPT-5.5",
     "date": "2026-04-23",
     "url": "https://openai.com/index/gpt-5-5/",
     "description": "OpenAI's latest flagship model with strong agentic coding, knowledge work, and autonomous task execution."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Speeding up agentic workflows",
+    "date": "2026-04-22",
+    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "description": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI Privacy Filter",
+    "date": "2026-04-22",
+    "url": "https://openai.com/index/introducing-openai-privacy-filter",
+    "description": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "ChatGPT Images 2.0",
+    "date": "2026-04-21",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+    "description": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI helps Hyatt advance AI among colleagues",
+    "date": "2026-04-20",
+    "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+    "description": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.7",
+    "date": "2026-04-16",
+    "url": "https://www.anthropic.com/news/claude-opus-4-7",
+    "description": "Anthropic's most powerful model. #1 on SWE-bench (82%) and LM Arena (1504 Elo) with exceptional coding and reasoning."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-Rosalind for life sciences research",
+    "date": "2026-04-16",
+    "url": "https://openai.com/index/introducing-gpt-rosalind",
+    "description": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Accelerating the cyber defense ecosystem that protects us all",
+    "date": "2026-04-16",
+    "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+    "description": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "The next evolution of the Agents SDK",
+    "date": "2026-04-15",
+    "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+    "description": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Trusted access for the next era of cyber defense",
+    "date": "2026-04-14",
+    "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+    "description": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Enterprises power agentic workflows in Cloudflare Agent Cloud",
+    "date": "2026-04-13",
+    "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+    "description": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Gradient Labs gives every bank customer an AI account manager",
+    "date": "2026-04-01",
+    "url": "https://openai.com/index/gradient-labs",
+    "description": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Inside our approach to the Model Spec",
+    "date": "2026-03-25",
+    "url": "https://openai.com/index/our-approach-to-the-model-spec",
+    "description": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Helping developers build safer AI experiences for teens",
+    "date": "2026-03-24",
+    "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+    "description": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Creating",
+    "date": "2026-03-23",
+    "url": "https://openai.com/index/creating-with-sora-safely",
+    "description": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approac"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "From model to agent",
+    "date": "2026-03-11",
+    "url": "https://openai.com/index/equip-responses-api-computer-environment",
+    "description": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How Balyasny Asset Management built an AI research engine",
+    "date": "2026-03-06",
+    "url": "https://openai.com/index/balyasny-asset-management",
+    "description": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research."
   },
   {
     "provider": "OpenAI",
@@ -15,6 +477,440 @@
   },
   {
     "provider": "OpenAI",
+    "model": "ChatGPT for Excel",
+    "date": "2026-03-05",
+    "url": "https://openai.com/index/chatgpt-for-excel",
+    "description": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Extending single-minus amplitudes to gravitons",
+    "date": "2026-03-04",
+    "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+    "description": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI Codex",
+    "date": "2026-02-26",
+    "url": "https://openai.com/index/figma-partnership",
+    "description": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Why we no longer evaluate SWE-bench Verified",
+    "date": "2026-02-23",
+    "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+    "description": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Our First Proof submissions",
+    "date": "2026-02-20",
+    "url": "https://openai.com/index/first-proof-submissions",
+    "description": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.1 Pro",
+    "date": "2026-02-19",
+    "url": "https://deepmind.google/models/gemini-3-1-pro/",
+    "description": "Google's most advanced model with 2M token context, Deep Think reasoning and top multilingual scores."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4.6",
+    "date": "2026-02-17",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "description": "Fast, high-performance coding model with improved reasoning over Sonnet 4.5."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Scaling social science research",
+    "date": "2026-02-13",
+    "url": "https://openai.com/index/scaling-social-science-research",
+    "description": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.6",
+    "date": "2026-02-05",
+    "url": "https://www.anthropic.com/news/claude-opus-4-6",
+    "description": "Intermediate Opus upgrade with enhanced agentic orchestration and coding capabilities."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Inside OpenAI’s in-house data agent",
+    "date": "2026-01-29",
+    "url": "https://openai.com/index/inside-our-in-house-data-agent",
+    "description": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Prism",
+    "date": "2026-01-27",
+    "url": "https://openai.com/index/introducing-prism",
+    "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Inside Praktika's conversational approach to language learning",
+    "date": "2026-01-22",
+    "url": "https://openai.com/index/praktika",
+    "description": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How Higgsfield turns simple ideas into cinematic social videos",
+    "date": "2026-01-21",
+    "url": "https://openai.com/index/higgsfield",
+    "description": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Horizon 1000",
+    "date": "2026-01-20",
+    "url": "https://openai.com/index/horizon-1000",
+    "description": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "A business that scales",
+    "date": "2026-01-18",
+    "url": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
+    "description": "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "ChatGPT Go, now available worldwide",
+    "date": "2026-01-16",
+    "url": "https://openai.com/index/introducing-chatgpt-go",
+    "description": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Netomi’s lessons for scaling agentic systems into the enterprise",
+    "date": "2026-01-08",
+    "url": "https://openai.com/index/netomi",
+    "description": "How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Evaluating chain-of-thought monitorability",
+    "date": "2025-12-18",
+    "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
+    "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Updating our Model Spec",
+    "date": "2025-12-18",
+    "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
+    "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Measuring AI’s capability to accelerate biological research",
+    "date": "2025-12-16",
+    "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
+    "description": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both th"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "The new ChatGPT Images is here",
+    "date": "2025-12-16",
+    "url": "https://openai.com/index/new-chatgpt-images-is-here",
+    "description": "The new ChatGPT Images is powered by our flagship image generation model, delivering more precise edits, consistent details, and image generation up to 4× faster. The upgraded model is rolling out to"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How Podium is arming 10,000+ SMBs",
+    "date": "2025-12-11",
+    "url": "https://openai.com/index/podium",
+    "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How Scout24 is building the next generation of real-estate search",
+    "date": "2025-12-09",
+    "url": "https://openai.com/index/scout24",
+    "description": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How confessions can keep language models honest",
+    "date": "2025-12-03",
+    "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+    "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI to acquire Neptune",
+    "date": "2025-12-03",
+    "url": "https://openai.com/index/openai-to-acquire-neptune",
+    "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
+    "date": "2025-12-01",
+    "url": "https://openai.com/index/thrive-holdings",
+    "description": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to boost speed, accuracy,"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Inside JetBrains",
+    "date": "2025-11-25",
+    "url": "https://openai.com/index/jetbrains-2025",
+    "description": "JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.5",
+    "date": "2025-11-24",
+    "url": "https://www.anthropic.com/news/claude-opus-4-5",
+    "description": "Major Opus upgrade with state-of-the-art coding benchmarks and advanced reasoning."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Strengthening our safety ecosystem",
+    "date": "2025-11-19",
+    "url": "https://openai.com/index/strengthening-safety-with-external-testing",
+    "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3 Pro",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Next-gen Gemini with 2x reasoning improvement and advanced multimodal and agentic features."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Intuit",
+    "date": "2025-11-18",
+    "url": "https://openai.com/index/intuit-partnership",
+    "description": "OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalized financial tools."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI named Emerging Leader in Generative AI",
+    "date": "2025-11-17",
+    "url": "https://openai.com/index/gartner-2025-emerging-leader",
+    "description": "OpenAI has been named an Emerging Leader in Gartner’s 2025 Innovation Guide for Generative AI Model Providers. The recognition reflects our enterprise momentum, with over 1 million companies building"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Understanding neural networks through sparse circuits",
+    "date": "2025-11-13",
+    "url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits",
+    "description": "OpenAI is exploring mechanistic interpretability to understand how neural networks reason. Our new sparse model approach could make AI systems more transparent and support safer, more reliable behavio"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Notion’s GPT‑5 rebuild unlocks autonomous AI workflows",
+    "date": "2025-11-07",
+    "url": "https://openai.com/index/notion",
+    "description": "Notion rebuilt its AI architecture with GPT-5 to create agents that reason, act, and adapt across workflows, unlocking faster and more flexible productivity in Notion 3.0."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How CRED is tapping AI to deliver premium customer experiences",
+    "date": "2025-11-05",
+    "url": "https://openai.com/index/cred-swamy-seetharaman",
+    "description": "CRED is improving premium customer experiences in India with OpenAI, using GPT-powered tools to boost support accuracy, cut response times, and raise customer satisfaction."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How Chime is redefining marketing through AI",
+    "date": "2025-11-05",
+    "url": "https://openai.com/index/chime-vineet-mehra",
+    "description": "Chime CMO Vineet Mehra shares how AI is reshaping marketing into an agent-driven model and why leaders who prioritize AI literacy and thoughtful adoption will drive growth."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-oss-safeguard",
+    "date": "2025-10-29",
+    "url": "https://openai.com/index/introducing-gpt-oss-safeguard",
+    "description": "OpenAI introduces gpt-oss-safeguard—open-weight reasoning models for safety classification that let developers apply and iterate on custom policies."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-oss-safeguard technical report",
+    "date": "2025-10-29",
+    "url": "https://openai.com/index/gpt-oss-safeguard-technical-report",
+    "description": "gpt-oss-safeguard-120b and gpt-oss-safeguard-20b are two open-weight reasoning models post-trained from the gpt-oss models and trained to reason from a provided policy in order to label content under"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Doppel’s AI defense system stops attacks before they spread",
+    "date": "2025-10-28",
+    "url": "https://openai.com/index/doppel",
+    "description": "Doppel uses GPT-5 and reinforcement fine-tuning to stop deepfake and impersonation attacks, cutting analyst workloads by 80% and reducing response times from hours to minutes."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Haiku 4.5",
+    "date": "2025-10-15",
+    "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+    "description": "Anthropic's fastest model with significantly improved capabilities at low cost."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Accelerating AI adoption in Europe",
+    "date": "2025-10-06",
+    "url": "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
+    "description": "OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sora 2 is here",
+    "date": "2025-09-30",
+    "url": "https://openai.com/index/sora-2",
+    "description": "Our latest video generation model is more physically accurate, realistic, and controllable than prior systems. It also features synchronized dialogue and sound effects. Create with it in the new Sora"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sora responsibly",
+    "date": "2025-09-30",
+    "url": "https://openai.com/index/launching-sora-responsibly",
+    "description": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approac"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sora 2 System Card",
+    "date": "2025-09-30",
+    "url": "https://openai.com/index/sora-2-system-card",
+    "description": "Sora 2 is our new state of the art video and audio generation model. Building on the foundation of Sora, this new model introduces capabilities that have been difficult for prior video models to achie"
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4.5",
+    "date": "2025-09-29",
+    "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+    "description": "High-speed coding and reasoning model with major improvements over Sonnet 4."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Measuring the performance of our models on real-world tasks",
+    "date": "2025-09-25",
+    "url": "https://openai.com/index/gdpval",
+    "description": "OpenAI introduces GDPval, a new evaluation that measures model performance on real-world economically valuable tasks across 44 occupations."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "ChatGPT Pulse",
+    "date": "2025-09-25",
+    "url": "https://openai.com/index/introducing-chatgpt-pulse",
+    "description": "Today we're releasing a preview of ChatGPT Pulse to Pro users on mobile. Pulse is a new experience where ChatGPT proactively does research to deliver personalized updates based on your chats, feedback"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "SAP",
+    "date": "2025-09-24",
+    "url": "https://openai.com/global-affairs/openai-for-germany",
+    "description": "SAP and OpenAI launch OpenAI for Germany, a 2026 partnership to bring secure, sovereign AI to Germany’s public sector, enabling safe, efficient public services."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "SchoolAI builds an AI platform that empowers teachers",
+    "date": "2025-09-22",
+    "url": "https://openai.com/index/schoolai",
+    "description": "SchoolAI uses GPT-4.1, image generation, and TTS to power safe, teacher-guided AI tools for over 1 million classrooms, improving engagement, oversight, and personalized learning."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "SafetyKit scales risk agents",
+    "date": "2025-09-09",
+    "url": "https://openai.com/index/safetykit",
+    "description": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy ."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI",
+    "date": "2025-09-05",
+    "url": "https://openai.com/global-affairs/openai-for-greece",
+    "description": "OpenAI and the Greek Government have launched “OpenAI for Greece” to bring ChatGPT Edu into secondary schools and support responsible AI learning. This partnership aims to boost AI literacy, fuel loca"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-realtime",
+    "date": "2025-08-28",
+    "url": "https://openai.com/index/introducing-gpt-realtime",
+    "description": "We’re releasing a more advanced speech-to-speech model and new API capabilities including MCP server support, image input, and SIP phone calling support."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Collective alignment",
+    "date": "2025-08-27",
+    "url": "https://openai.com/index/collective-alignment-aug-2025-updates",
+    "description": "OpenAI surveyed over 1,000 people worldwide on how AI should behave and compared their views to our Model Spec. Learn how collective alignment is shaping AI defaults to better reflect diverse human va"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Accelerating life sciences research",
+    "date": "2025-08-22",
+    "url": "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences",
+    "description": "Discover how a specialized AI model, GPT-4b micro, helped OpenAI and Retro Bio engineer more effective proteins for stem cell therapy and longevity research."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Scaling domain expertise in complex, regulated domains",
+    "date": "2025-08-21",
+    "url": "https://openai.com/index/blue-j",
+    "description": "Discover how Blue J is transforming tax research with AI-powered tools built on GPT-4.1. By combining domain expertise with Retrieval-Augmented Generation, Blue J delivers fast, accurate, and fully-ci"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Scaling accounting capacity",
+    "date": "2025-08-12",
+    "url": "https://openai.com/index/basis",
+    "description": "Built with OpenAI o3, o3-Pro, GPT-4.1, and GPT-5, Basis’ AI agents help accounting firms save up to 30% of their time and expand capacity for advisory and growth."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "From hard refusals to safe-completions",
+    "date": "2025-08-07",
+    "url": "https://openai.com/index/gpt-5-safe-completions",
+    "description": "Discover how OpenAI's new safe-completions approach in GPT-5 improves both safety and helpfulness in AI responses—moving beyond hard refusals to nuanced, output-centric safety training for handling du"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+    "date": "2025-08-06",
+    "url": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+    "description": "Today, OpenAI for Government is announcing a new partnership with the U.S. General Services Administration (GSA) to launch a transformative initiative. For the next year, ChatGPT Enterprise will be av"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Open Weights",
+    "date": "2025-08-05",
+    "url": "https://openai.com/global-affairs/open-weights-and-ai-for-all",
+    "description": "AI’s next frontier isn’t just about capability—it’s about who gets to use it. Our mission to put AI in the hands of as many people as possible is what drives us. Today’s release of our most capable  o"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Estimating worst case frontier risks of open weight LLMs",
+    "date": "2025-08-05",
+    "url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms",
+    "description": "In this paper, we study the worst-case frontier risks of releasing gpt-oss. We introduce malicious fine-tuning (MFT), where we attempt to elicit maximum capabilities by fine-tuning gpt-oss to be as ca"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "date": "2025-08-05",
+    "url": "https://openai.com/index/gpt-oss-model-card",
+    "description": "We introduce gpt-oss-120b and gpt-oss-20b, two open-weight reasoning models available under the Apache 2.0 license and our gpt-oss usage policy."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-oss",
+    "date": "2025-08-05",
+    "url": "https://openai.com/index/introducing-gpt-oss",
+    "description": "We’re releasing gpt-oss-120b and gpt-oss-20b—two state-of-the-art open-weight language models that deliver strong real-world performance at low cost. Available under the flexible Apache 2.0 license, t"
+  },
+  {
+    "provider": "OpenAI",
     "model": "GPT-5",
     "date": "2025-08-01",
     "url": "https://openai.com/index/gpt-5/",
@@ -22,10 +918,115 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Resolving digital threats 100x faster",
+    "date": "2025-07-24",
+    "url": "https://openai.com/index/outtake",
+    "description": "Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Model ML is helping financial firms rebuild",
+    "date": "2025-07-23",
+    "url": "https://openai.com/index/model-ml-chaz-englander",
+    "description": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "ChatGPT agent System Card",
+    "date": "2025-07-17",
+    "url": "https://openai.com/index/chatgpt-agent-system-card",
+    "description": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Invideo AI uses OpenAI models to create videos 10x faster",
+    "date": "2025-07-17",
+    "url": "https://openai.com/index/invideo-ai",
+    "description": "Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes."
+  },
+  {
+    "provider": "xAI",
+    "model": "Grok 4",
+    "date": "2025-07-09",
+    "url": "https://x.ai/news/grok-4",
+    "description": "xAI's most powerful model with advanced reasoning, multi-agent orchestration and coding tools."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Working",
+    "date": "2025-07-08",
+    "url": "https://openai.com/global-affairs/aft",
+    "description": "OpenAI partners with the American Federation of Teachers to launch a 5-year initiative equipping 400,000 K-12 educators to lead AI innovation in classrooms."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Customizable, no-code voice agent automation",
+    "date": "2025-06-26",
+    "url": "https://openai.com/index/retell-ai",
+    "description": "Retell AI is transforming the call center with AI voice automation powered by GPT-4o and GPT-4.1. Its no-code platform enables businesses to launch natural, real-time voice agents that cut call costs,"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5 Pro",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Flagship reasoning and coding model with 1M token context and 100% on AIME 2025 math."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.5 Flash",
+    "date": "2025-06-17",
+    "url": "https://deepmind.google/technologies/gemini/flash/",
+    "description": "Fast, efficient model optimized for enterprise and developer use with thinking capabilities."
+  },
+  {
+    "provider": "OpenAI",
     "model": "o3-pro",
     "date": "2025-06-10",
     "url": "https://openai.com/index/o3-pro/",
     "description": "OpenAI's most rigorous reasoning model designed for extremely challenging math, science and coding."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Opus 4",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "description": "Anthropic's flagship model excelling at complex, long-running coding and agentic tasks."
+  },
+  {
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4",
+    "date": "2025-05-22",
+    "url": "https://www.anthropic.com/news/claude-4",
+    "description": "Improved coding and reasoning model available to free and paid users via API and integrations."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "HealthBench",
+    "date": "2025-05-12",
+    "url": "https://openai.com/index/healthbench",
+    "description": "HealthBench is a new evaluation benchmark for AI in healthcare which evaluates models in realistic scenarios. Built with input from 250+ physicians, it aims to provide a shared standard for model perf"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sycophancy in GPT-4o",
+    "date": "2025-04-29",
+    "url": "https://openai.com/index/sycophancy-in-gpt-4o",
+    "description": "We have rolled back last week’s GPT‑4o update in ChatGPT so people are now using an earlier version with more balanced behavior. The update we removed was overly flattering or agreeable—often describe"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "New in ChatGPT for Business",
+    "date": "2025-04-24",
+    "url": "https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025",
+    "description": "Watch hands-on demos of the lastest in ChatGPT for Business: o3, image generation, enhanced memory, and internal knowledge."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "our latest image generation model in the API",
+    "date": "2025-04-23",
+    "url": "https://openai.com/index/image-generation-api",
+    "description": "Our latest image generation model is now available in the API via ‘gpt-image-1’—enabling developers and businesses to build professional-grade, customizable visuals directly into their own tools and p"
   },
   {
     "provider": "OpenAI",
@@ -49,104 +1050,6 @@
     "description": "Optimized for coding and instruction-following with up to 1M token context window."
   },
   {
-    "provider": "OpenAI",
-    "model": "GPT-4.5",
-    "date": "2025-02-27",
-    "url": "https://openai.com/index/gpt-4-5/",
-    "description": "Large-scale GPT model with enhanced world knowledge and reduced hallucinations."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Opus 4.7",
-    "date": "2026-04-16",
-    "url": "https://www.anthropic.com/news/claude-opus-4-7",
-    "description": "Anthropic's most powerful model. #1 on SWE-bench (82%) and LM Arena (1504 Elo) with exceptional coding and reasoning."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Sonnet 4.6",
-    "date": "2026-02-17",
-    "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
-    "description": "Fast, high-performance coding model with improved reasoning over Sonnet 4.5."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Opus 4.6",
-    "date": "2026-02-05",
-    "url": "https://www.anthropic.com/news/claude-opus-4-6",
-    "description": "Intermediate Opus upgrade with enhanced agentic orchestration and coding capabilities."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Opus 4.5",
-    "date": "2025-11-24",
-    "url": "https://www.anthropic.com/news/claude-opus-4-5",
-    "description": "Major Opus upgrade with state-of-the-art coding benchmarks and advanced reasoning."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Haiku 4.5",
-    "date": "2025-10-15",
-    "url": "https://www.anthropic.com/news/claude-haiku-4-5",
-    "description": "Anthropic's fastest model with significantly improved capabilities at low cost."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Sonnet 4.5",
-    "date": "2025-09-29",
-    "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
-    "description": "High-speed coding and reasoning model with major improvements over Sonnet 4."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Opus 4",
-    "date": "2025-05-22",
-    "url": "https://www.anthropic.com/news/claude-4",
-    "description": "Anthropic's flagship model excelling at complex, long-running coding and agentic tasks."
-  },
-  {
-    "provider": "Anthropic",
-    "model": "Claude Sonnet 4",
-    "date": "2025-05-22",
-    "url": "https://www.anthropic.com/news/claude-4",
-    "description": "Improved coding and reasoning model available to free and paid users via API and integrations."
-  },
-  {
-    "provider": "Google DeepMind",
-    "model": "Gemini 3.1 Pro",
-    "date": "2026-02-19",
-    "url": "https://deepmind.google/models/gemini-3-1-pro/",
-    "description": "Google's most advanced model with 2M token context, Deep Think reasoning and top multilingual scores."
-  },
-  {
-    "provider": "Google DeepMind",
-    "model": "Gemini 3 Pro",
-    "date": "2025-11-18",
-    "url": "https://deepmind.google/technologies/gemini/",
-    "description": "Next-gen Gemini with 2x reasoning improvement and advanced multimodal and agentic features."
-  },
-  {
-    "provider": "Google DeepMind",
-    "model": "Gemini 2.5 Pro",
-    "date": "2025-06-17",
-    "url": "https://deepmind.google/technologies/gemini/",
-    "description": "Flagship reasoning and coding model with 1M token context and 100% on AIME 2025 math."
-  },
-  {
-    "provider": "Google DeepMind",
-    "model": "Gemini 2.5 Flash",
-    "date": "2025-06-17",
-    "url": "https://deepmind.google/technologies/gemini/flash/",
-    "description": "Fast, efficient model optimized for enterprise and developer use with thinking capabilities."
-  },
-  {
-    "provider": "Google DeepMind",
-    "model": "Gemini 2.0 Flash",
-    "date": "2025-02-05",
-    "url": "https://deepmind.google/technologies/gemini/flash/",
-    "description": "Multimodal model with improved speed and performance for general-purpose tasks."
-  },
-  {
     "provider": "Meta",
     "model": "Llama 4 Maverick",
     "date": "2025-04-05",
@@ -161,18 +1064,32 @@
     "description": "Open-weight model with ultra-long 10M token context window and multimodal capabilities."
   },
   {
-    "provider": "Meta",
-    "model": "Llama 3.3 70B",
-    "date": "2024-12-06",
-    "url": "https://ai.meta.com/blog/llama-3-3/",
-    "description": "Llama 3.3 delivering Llama 3.1 405B quality at 70B size for efficient deployment."
+    "provider": "OpenAI",
+    "model": "Our response to the UK’s copyright consultation",
+    "date": "2025-04-02",
+    "url": "https://openai.com/global-affairs/response-to-uk-copyright-consultation",
+    "description": "Recommendations for pro-innovation policies that can help make the UK the AI capital of Europe."
   },
   {
-    "provider": "Mistral",
-    "model": "Codestral 25.01",
-    "date": "2025-01-14",
-    "url": "https://docs.mistral.ai/models/model-cards/codestral/",
-    "description": "Specialized code model supporting 80+ languages with 256K context and fill-in-the-middle."
+    "provider": "OpenAI",
+    "model": "4o Image Generation",
+    "date": "2025-03-25",
+    "url": "https://openai.com/index/introducing-4o-image-generation",
+    "description": "At OpenAI, we have long believed image generation should be a primary capability of our language models. That’s why we’ve built our most advanced image generator yet into GPT‑4o. The result—image gene"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Addendum to GPT-4o System Card",
+    "date": "2025-03-25",
+    "url": "https://openai.com/index/gpt-4o-image-generation-system-card-addendum",
+    "description": "4o image generation is a new, significantly more capable image generation approach than our earlier DALL·E 3 series of models. It can create photorealistic output. It can take images as inputs and tra"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "next-generation audio models in the API",
+    "date": "2025-03-20",
+    "url": "https://openai.com/index/introducing-our-next-generation-audio-models",
+    "description": "For the first time, developers can also instruct the text-to-speech model to speak in a specific way—for example, “talk like a sympathetic customer service agent”—unlocking a new level of customizatio"
   },
   {
     "provider": "Mistral",
@@ -182,18 +1099,18 @@
     "description": "Compact multimodal model with vision support and 128k context window."
   },
   {
-    "provider": "Mistral",
-    "model": "Mistral Large 2",
-    "date": "2024-11-18",
-    "url": "https://mistral.ai/news/mistral-large-2407/",
-    "description": "Mistral's flagship model with state-of-the-art reasoning and coding capabilities."
+    "provider": "OpenAI",
+    "model": "GPT-4.5",
+    "date": "2025-02-27",
+    "url": "https://openai.com/index/gpt-4-5/",
+    "description": "Large-scale GPT model with enhanced world knowledge and reduced hallucinations."
   },
   {
-    "provider": "xAI",
-    "model": "Grok 4",
-    "date": "2025-07-09",
-    "url": "https://x.ai/news/grok-4",
-    "description": "xAI's most powerful model with advanced reasoning, multi-agent orchestration and coding tools."
+    "provider": "OpenAI",
+    "model": "Supporting sellers",
+    "date": "2025-02-27",
+    "url": "https://openai.com/index/mercari",
+    "description": "Mercari leverages GPT-4o mini and GPT-4 to streamline selling, enhance product listings, and boost sales, transforming the online marketplace with features like AI Listing Support and Mercari AI Assis"
   },
   {
     "provider": "xAI",
@@ -203,6 +1120,48 @@
     "description": "Trained on the Colossus supercluster with deep reasoning and strong benchmark performance."
   },
   {
+    "provider": "OpenAI",
+    "model": "OpenAI",
+    "date": "2025-02-14",
+    "url": "https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership",
+    "description": "OpenAI and Guardian Media Group announce content partnership to bring Guardian news content to ChatGPT."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Using OpenAI o1 for financial analysis",
+    "date": "2025-02-13",
+    "url": "https://openai.com/index/rogo",
+    "description": "Rogo scales AI-driven financial research with OpenAI o1"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sharing the latest Model Spec",
+    "date": "2025-02-12",
+    "url": "https://openai.com/index/sharing-the-latest-model-spec",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 2.0 Flash",
+    "date": "2025-02-05",
+    "url": "https://deepmind.google/technologies/gemini/flash/",
+    "description": "Multimodal model with improved speed and performance for general-purpose tasks."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "deep research",
+    "date": "2025-02-02",
+    "url": "https://openai.com/index/introducing-deep-research",
+    "description": "An agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks for you. Available to Pro users today, Plus and Team next."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Operator System Card",
+    "date": "2025-01-23",
+    "url": "https://openai.com/index/operator-system-card",
+    "description": "Drawing from OpenAI’s established safety frameworks, this document highlights our multi-layered approach, including model and product mitigations we’ve implemented to protect against prompt engineerin"
+  },
+  {
     "provider": "DeepSeek",
     "model": "DeepSeek-R1",
     "date": "2025-01-20",
@@ -210,11 +1169,67 @@
     "description": "Open-weight reasoning model rivaling top proprietary models at a fraction of training cost."
   },
   {
+    "provider": "Mistral",
+    "model": "Codestral 25.01",
+    "date": "2025-01-14",
+    "url": "https://docs.mistral.ai/models/model-cards/codestral/",
+    "description": "Specialized code model supporting 80+ languages with 256K context and fill-in-the-middle."
+  },
+  {
     "provider": "DeepSeek",
     "model": "DeepSeek-V3",
     "date": "2024-12-26",
     "url": "https://github.com/deepseek-ai/DeepSeek-V3",
     "description": "Powerful open-source MoE model with strong coding performance and 1M context window."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Deliberative alignment",
+    "date": "2024-12-20",
+    "url": "https://openai.com/index/deliberative-alignment",
+    "description": "Deliberative alignment: reasoning enables safer language models\nIntroducing our new alignment strategy for o1 models, which are directly taught safety specifications and how to reason over them."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI o1",
+    "date": "2024-12-17",
+    "url": "https://openai.com/index/o1-and-new-tools-for-developers",
+    "description": "Introducing OpenAI o1, Realtime API improvements, a new fine-tuning method and more for developers."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sora is here",
+    "date": "2024-12-09",
+    "url": "https://openai.com/index/sora-is-here",
+    "description": "Our video generation model, Sora, is now available to use at sora.com. Users can generate videos up to 1080p resolution, up to 20 sec long, and in widescreen, vertical or square aspect ratios. You can"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sora System Card",
+    "date": "2024-12-09",
+    "url": "https://openai.com/index/sora-system-card",
+    "description": "Sora is OpenAI’s video generation model, designed to take text, image, and video inputs and generate a new video as an output. Sora builds on learnings from DALL-E and GPT models, and is designed to g"
+  },
+  {
+    "provider": "Meta",
+    "model": "Llama 3.3 70B",
+    "date": "2024-12-06",
+    "url": "https://ai.meta.com/blog/llama-3-3/",
+    "description": "Llama 3.3 delivering Llama 3.1 405B quality at 70B size for efficient deployment."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "ChatGPT Pro",
+    "date": "2024-12-05",
+    "url": "https://openai.com/index/introducing-chatgpt-pro",
+    "description": "Broadening usage of frontier AI"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI o1 System Card",
+    "date": "2024-12-05",
+    "url": "https://openai.com/index/openai-o1-system-card",
+    "description": "This report outlines the safety work carried out prior to releasing OpenAI o1 and o1-mini, including external red teaming and frontier risk evaluations according to our Preparedness Framework."
   },
   {
     "provider": "Amazon",
@@ -229,5 +1244,712 @@
     "date": "2024-12-03",
     "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
     "description": "Amazon's low cost multimodal model for lightning-fast text, image and video tasks."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Building smarter maps",
+    "date": "2024-11-20",
+    "url": "https://openai.com/index/grab",
+    "description": "Building smarter maps with GPT-4o vision fine-tuning"
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Large 2",
+    "date": "2024-11-18",
+    "url": "https://mistral.ai/news/mistral-large-2407/",
+    "description": "Mistral's flagship model with state-of-the-art reasoning and coding capabilities."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "vision to the fine-tuning API",
+    "date": "2024-10-01",
+    "url": "https://openai.com/index/introducing-vision-to-the-fine-tuning-api",
+    "description": "Developers can now fine-tune GPT-4o with images and text to improve vision capabilities"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Prompt Caching in the API",
+    "date": "2024-10-01",
+    "url": "https://openai.com/index/api-prompt-caching",
+    "description": "Offering automatic discounts on inputs that the model has recently seen"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Model Distillation in the API",
+    "date": "2024-10-01",
+    "url": "https://openai.com/index/api-model-distillation",
+    "description": "Fine-tune a cost-efficient model with the outputs of a large frontier model–all on the OpenAI platform"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Creating agent",
+    "date": "2024-10-01",
+    "url": "https://openai.com/index/altera",
+    "description": "Altera uses GPT-4o to build a new area of human collaboration"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Upgrading the Moderation API",
+    "date": "2024-09-26",
+    "url": "https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
+    "description": "We’re introducing a new model built on GPT-4o that is more accurate at detecting harmful text and images, enabling developers to build more robust moderation systems."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Verdi, an AI dev platform powered by GPT-4o",
+    "date": "2024-09-24",
+    "url": "https://openai.com/index/mercado-libre",
+    "description": "Mercado Libre introduces Verdi, an AI developer platform powered by GPT-4o"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Using GPT-4 to improve teaching",
+    "date": "2024-09-17",
+    "url": "https://openai.com/index/arco-education",
+    "description": "Improving teaching and learning in Brazil"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI o1",
+    "date": "2024-09-12",
+    "url": "https://openai.com/index/introducing-openai-o1-preview",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI o1-mini",
+    "date": "2024-09-12",
+    "url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning",
+    "description": "Advancing cost-efficient reasoning"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI o1 Contributions",
+    "date": "2024-09-12",
+    "url": "https://openai.com/openai-o1-contributions",
+    "description": "OpenAI o1 Contributions"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Answering quantum physics questions",
+    "date": "2024-09-12",
+    "url": "https://openai.com/index/o1-quantum-physics",
+    "description": "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Coding",
+    "date": "2024-09-12",
+    "url": "https://openai.com/index/o1-coding",
+    "description": "Scott Wu, CEO and Co-Founder of Cognition, explains how OpenAI o1 makes coding decisions in a more human-like way."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Economics",
+    "date": "2024-09-12",
+    "url": "https://openai.com/index/o1-economics",
+    "description": "Economist Tyler Cowen explains how OpenAI o1 tackles complex economic questions."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Decoding genetics",
+    "date": "2024-09-12",
+    "url": "https://openai.com/index/o1-genetics",
+    "description": "Geneticist Catherine Brownstein demonstrates how OpenAI o1 can speed up the process of diagnosing rare medical challenges."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Using GPT-4 to deliver a new customer service standard",
+    "date": "2024-09-05",
+    "url": "https://openai.com/index/ada",
+    "description": "Ada uses GPT-4 to deliver a new customer service standard"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Fine-tuning now available for GPT-4o",
+    "date": "2024-08-20",
+    "url": "https://openai.com/index/gpt-4o-fine-tuning",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4o System Card",
+    "date": "2024-08-08",
+    "url": "https://openai.com/index/gpt-4o-system-card",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Structured Outputs in the API",
+    "date": "2024-08-06",
+    "url": "https://openai.com/index/introducing-structured-outputs-in-the-api",
+    "description": "We are introducing Structured Outputs in the API—model outputs now reliably adhere to developer-supplied JSON Schemas."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Improving Model Safety Behavior",
+    "date": "2024-07-24",
+    "url": "https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards",
+    "description": "We've developed and applied a new method leveraging Rule-Based Rewards (RBRs) that aligns models to behave safely without extensive human data collection."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4o mini",
+    "date": "2024-07-18",
+    "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "New compliance",
+    "date": "2024-07-18",
+    "url": "https://openai.com/index/new-tools-for-chatgpt-enterprise",
+    "description": "Compliance API integrations, SCIM, and GPT controls to support compliance programs, data security, and user access at scale"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Prover-Verifier Games improve legibility of language model outputs",
+    "date": "2024-07-17",
+    "url": "https://openai.com/index/prover-verifier-games-improve-legibility",
+    "description": "Discover how prover-verifier games improve the legibility of language model outputs, making AI solutions clearer, easier to verify, and more trustworthy for both humans and machines."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Finding GPT-4’s mistakes",
+    "date": "2024-06-27",
+    "url": "https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4",
+    "description": "CriticGPT, a model based on GPT-4, writes critiques of ChatGPT responses to help human trainers spot mistakes during RLHF"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Using GPT-4o reasoning to transform cancer care",
+    "date": "2024-06-17",
+    "url": "https://openai.com/index/color-health",
+    "description": "Color Health is working with OpenAI to pioneer a new way of accelerating cancer patients’ access to treatment. Their new Cancer Copilot application uses GPT-4o to identify missing diagnostics and crea"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Expanding on how Voice Engine works",
+    "date": "2024-06-07",
+    "url": "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research",
+    "description": "Exploring the technology behind our text-to-speech model."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Extracting Concepts from GPT-4",
+    "date": "2024-06-06",
+    "url": "https://openai.com/index/extracting-concepts-from-gpt-4",
+    "description": "Using new techniques for scaling sparse autoencoders, we automatically identified 16 million patterns in GPT-4's computations."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Automating customer support agents",
+    "date": "2024-05-29",
+    "url": "https://openai.com/index/mavenagi",
+    "description": "MavenAGI is a new software company for the AI era. They recently launched an AI customer service agent, built on the flexibility of GPT-4, which a number of companies like Tripadvisor, Clickup and Rho"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Hello GPT-4o",
+    "date": "2024-05-13",
+    "url": "https://openai.com/index/hello-gpt-4o",
+    "description": "We’re announcing GPT-4 Omni, our new flagship model which can reason across audio, vision, and text in real time."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4o",
+    "date": "2024-05-13",
+    "url": "https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free",
+    "description": "Introducing GPT-4o and more tools to ChatGPT free users\nWe are launching our newest flagship model and making more capabilities available for free in ChatGPT."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Spring Update",
+    "date": "2024-05-13",
+    "url": "https://openai.com/index/spring-update",
+    "description": "Introducing GPT-4o and making more capabilities available for free in ChatGPT."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "the Model Spec",
+    "date": "2024-05-08",
+    "url": "https://openai.com/index/introducing-the-model-spec",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4 API general availability",
+    "date": "2024-04-24",
+    "url": "https://openai.com/index/gpt-4-api-general-availability",
+    "description": "GPT-3.5 Turbo, DALL·E and Whisper APIs are also generally available, and we are releasing a deprecation plan for older models of the Completions API, which will retire at the beginning of 2024."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "The Instruction Hierarchy",
+    "date": "2024-04-19",
+    "url": "https://openai.com/index/the-instruction-hierarchy",
+    "description": "Today's LLMs are susceptible to prompt injections, jailbreaks, and other attacks that allow adversaries to overwrite a model's original instructions with their own malicious prompts."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI Japan",
+    "date": "2024-04-14",
+    "url": "https://openai.com/index/introducing-openai-japan",
+    "description": "We are excited to announce our first office in Asia and we’re releasing a GPT-4 custom model optimized for the Japanese language."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Customizing models for legal professionals",
+    "date": "2024-04-02",
+    "url": "https://openai.com/index/harvey",
+    "description": "Harvey partners with OpenAI to build a custom-trained model for legal professionals."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Navigating the challenges",
+    "date": "2024-03-29",
+    "url": "https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices",
+    "description": "We’re sharing lessons from a small scale preview of Voice Engine, a model for creating custom voices."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Making education data accessible",
+    "date": "2024-03-28",
+    "url": "https://openai.com/index/zelma",
+    "description": "Zelma uses GPT-4 to make education data accessible."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Improving health literacy",
+    "date": "2024-03-06",
+    "url": "https://openai.com/index/lifespan",
+    "description": "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Video generation models as world simulators",
+    "date": "2024-02-15",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators",
+    "description": "We explore large-scale training of generative models on video data. Specifically, we train text-conditional diffusion models jointly on videos and images of variable durations, resolutions and aspect"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Building an early warning system for LLM-aided biological threat creation",
+    "date": "2024-01-31",
+    "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+    "description": "We’re developing a blueprint for evaluating the risk that a large language model (LLM) could aid someone in creating a biological threat. In an evaluation involving both biology experts and students,"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "the GPT Store",
+    "date": "2024-01-10",
+    "url": "https://openai.com/index/introducing-the-gpt-store",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Delivering LLM-powered health solutions",
+    "date": "2024-01-04",
+    "url": "https://openai.com/index/whoop",
+    "description": "WHOOP delivers personalized fitness and health coaching with GPT-4."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "New models",
+    "date": "2023-11-06",
+    "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday",
+    "description": "GPT-4 Turbo with 128K context and lower prices, the new Assistants API, GPT-4 Turbo with Vision, DALL·E 3 API, and more."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Frontier Model Forum updates",
+    "date": "2023-10-25",
+    "url": "https://openai.com/index/frontier-model-forum-updates",
+    "description": "Together with Anthropic, Google, and Microsoft, we’re announcing the new Executive Director of the Frontier Model Forum and a new $10 million AI Safety Fund."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "DALL·E 3 is now available in ChatGPT Plus",
+    "date": "2023-10-19",
+    "url": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+    "description": "We developed a safety mitigation stack to ready DALL·E 3 for wider release and are sharing updates on our provenance research."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Simplifying contract reviews",
+    "date": "2023-10-11",
+    "url": "https://openai.com/index/ironclad",
+    "description": "Ironclad uses GPT-4 to simplify the contract review process."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Building AI-powered apps for business",
+    "date": "2023-10-11",
+    "url": "https://openai.com/index/retool",
+    "description": "Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Evolving online forms into dynamic data",
+    "date": "2023-10-11",
+    "url": "https://openai.com/index/typeform",
+    "description": "Typeform evolves online forms into dynamic and conversational data collection experiences with GPT-3.5 and GPT-4."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4V(ision) system card",
+    "date": "2023-09-25",
+    "url": "https://openai.com/index/gpt-4v-system-card",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-3.5 Turbo fine-tuning",
+    "date": "2023-08-22",
+    "url": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates",
+    "description": "Developers can now bring their own data to customize GPT-3.5 Turbo for their use cases."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Using GPT-4 for content moderation",
+    "date": "2023-08-15",
+    "url": "https://openai.com/index/using-gpt-4-for-content-moderation",
+    "description": "We use GPT-4 for content policy development and content moderation decisions, enabling more consistent labeling, a faster feedback loop for policy refinement, and less involvement from human moderator"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Frontier Model Forum",
+    "date": "2023-07-26",
+    "url": "https://openai.com/index/frontier-model-forum",
+    "description": "We’re forming a new industry body to promote the safe and responsible development of frontier AI systems: advancing AI safety research, identifying best practices and standards, and facilitating infor"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Accurately analyzing large scale qualitative data",
+    "date": "2023-07-07",
+    "url": "https://openai.com/index/viable",
+    "description": "Viable uses GPT-4 to analyze qualitative data at a revolutionary scale with unparalleled accuracy."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Improving mathematical reasoning",
+    "date": "2023-05-31",
+    "url": "https://openai.com/index/improving-mathematical-reasoning-with-process-supervision",
+    "description": "We've trained a model to achieve a new state-of-the-art in mathematical problem solving by rewarding each correct step of reasoning (“process supervision”) instead of simply rewarding the correct fina"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "the ChatGPT app for iOS",
+    "date": "2023-05-18",
+    "url": "https://openai.com/index/introducing-the-chatgpt-app-for-ios",
+    "description": "The ChatGPT app syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Language models can explain neurons in language models",
+    "date": "2023-05-09",
+    "url": "https://openai.com/index/language-models-can-explain-neurons-in-language-models",
+    "description": "We use GPT-4 to automatically write explanations for the behavior of neurons in large language models and to score those explanations. We release a dataset of these (imperfect) explanations and scores"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Filling crucial language learning gaps",
+    "date": "2023-03-14",
+    "url": "https://openai.com/index/duolingo",
+    "description": "GPT-4 deepens the conversation on Duolingo."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Stripe",
+    "date": "2023-03-14",
+    "url": "https://openai.com/index/stripe",
+    "description": "Stripe leverages GPT-4 to streamline user experience and combat fraud."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Preserving languages for the future",
+    "date": "2023-03-14",
+    "url": "https://openai.com/index/government-of-iceland",
+    "description": "How Iceland is using GPT-4 to preserve its language."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-4",
+    "date": "2023-03-14",
+    "url": "https://openai.com/index/gpt-4-research",
+    "description": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less ca"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Powering virtual education for the classroom",
+    "date": "2023-03-14",
+    "url": "https://openai.com/index/khan-academy",
+    "description": "Khan Academy explores the potential for GPT-4 in a limited pilot program."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Transforming visual accessibility",
+    "date": "2023-03-14",
+    "url": "https://openai.com/index/be-my-eyes",
+    "description": "Be My Eyes uses GPT-4 to transform visual accessibility."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Delivering nuanced insights from customer feedback",
+    "date": "2023-01-04",
+    "url": "https://openai.com/index/yabble",
+    "description": "Using GPT-3 to deliver fast, nuanced insights from customer feedback."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Fine-tuning GPT-3 to scale video creation",
+    "date": "2023-01-03",
+    "url": "https://openai.com/index/waymark",
+    "description": "Fine-tuning GPT-3 to power and scale done-for-you video creation."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Creating next-gen characters",
+    "date": "2023-01-01",
+    "url": "https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
+    "description": "Using GPT-3 to create the next generation of AI-powered characters."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "New",
+    "date": "2022-12-15",
+    "url": "https://openai.com/index/new-and-improved-embedding-model",
+    "description": "We are excited to announce a new embedding model which is significantly more capable, cost effective, and simpler to use."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "ChatGPT",
+    "date": "2022-11-30",
+    "url": "https://openai.com/index/chatgpt",
+    "description": "We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect pr"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Scaling laws for reward model overoptimization",
+    "date": "2022-10-19",
+    "url": "https://openai.com/index/scaling-laws-for-reward-model-overoptimization",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Learning to play Minecraft",
+    "date": "2022-06-23",
+    "url": "https://openai.com/index/vpt",
+    "description": "We trained a neural network to play Minecraft by Video PreTraining (VPT) on a massive unlabeled video dataset of human Minecraft play, while using only a small amount of labeled contractor data. With"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "AI-written critiques help humans notice flaws",
+    "date": "2022-06-13",
+    "url": "https://openai.com/index/critiques",
+    "description": "We trained “critique-writing” models to describe flaws in summaries. Human evaluators find flaws in summaries much more often when shown our model’s critiques. Larger models are better at self-critiqu"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "New GPT-3 capabilities",
+    "date": "2022-03-15",
+    "url": "https://openai.com/index/gpt-3-edit-insert",
+    "description": "We’ve released new versions of GPT-3 and Codex which can edit or insert content into existing text, rather than just completing existing text."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Lessons learned on language model safety",
+    "date": "2022-03-03",
+    "url": "https://openai.com/index/language-model-safety-and-misuse",
+    "description": "We describe our latest thinking in the hope of helping other AI developers address safety and misuse of deployed models."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "WebGPT",
+    "date": "2021-12-16",
+    "url": "https://openai.com/index/webgpt",
+    "description": "We’ve fine-tuned GPT-3 to more accurately answer open-ended questions using a text-based web browser."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Customizing GPT-3 for your application",
+    "date": "2021-12-14",
+    "url": "https://openai.com/index/customizing-gpt-3",
+    "description": "Fine-tune with a single command."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Solving math word problems",
+    "date": "2021-10-29",
+    "url": "https://openai.com/index/solving-math-word-problems",
+    "description": "We’ve trained a system that solves grade school math problems with nearly twice the accuracy of a fine-tuned GPT-3 model. It solves about 90% as many problems as real kids: a small sample of 9-12 year"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Improving language model behavior by training on a curated dataset",
+    "date": "2021-06-10",
+    "url": "https://openai.com/index/improving-language-model-behavior",
+    "description": "Our latest research finds we can improve language model behavior with respect to specific behavioral values by fine-tuning on a small, curated dataset."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-3 powers the next generation of apps",
+    "date": "2021-03-25",
+    "url": "https://openai.com/index/gpt-3-apps",
+    "description": "Over 300 applications are delivering GPT-3–powered search, conversation, text completion, and other advanced AI features through our API."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Scaling Kubernetes to 7,500 nodes",
+    "date": "2021-01-25",
+    "url": "https://openai.com/index/scaling-kubernetes-to-7500-nodes",
+    "description": "We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling La"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "CLIP",
+    "date": "2021-01-05",
+    "url": "https://openai.com/index/clip",
+    "description": "We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision. CLIP can be applied to any visual classification benchmark by simply providin"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI licenses GPT-3 technology to Microsoft",
+    "date": "2020-09-22",
+    "url": "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft",
+    "description": "OpenAI has agreed to license GPT-3 to Microsoft for their own products and services."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Image GPT",
+    "date": "2020-06-17",
+    "url": "https://openai.com/index/image-gpt",
+    "description": "We find that, just as a large transformer model trained on language can generate coherent text, the same exact model trained on pixel sequences can generate coherent image completions and samples. By"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Jukebox",
+    "date": "2020-04-30",
+    "url": "https://openai.com/index/jukebox",
+    "description": "We’re introducing Jukebox, a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along wi"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI Microscope",
+    "date": "2020-04-14",
+    "url": "https://openai.com/index/microscope",
+    "description": "We’re introducing OpenAI Microscope, a collection of visualizations of every significant layer and neuron of eight vision “model organisms” which are often studied in interpretability. Microscope make"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Deep double descent",
+    "date": "2019-12-05",
+    "url": "https://openai.com/index/deep-double-descent",
+    "description": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or tra"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-2",
+    "date": "2019-11-05",
+    "url": "https://openai.com/index/gpt-2-1-5b-release",
+    "description": "As the final model release of GPT-2’s staged release, we’re releasing the largest version (1.5B parameters) of GPT-2 along with code and model weights to facilitate detection of outputs of GPT-2 model"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Fine-tuning GPT-2 from human preferences",
+    "date": "2019-09-19",
+    "url": "https://openai.com/index/fine-tuning-gpt-2",
+    "description": "We’ve fine-tuned the 774M parameter GPT-2 language model using human feedback for various tasks, successfully matching the preferences of the external human labelers, though those preferences did not"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Testing robustness against unforeseen adversaries",
+    "date": "2019-08-22",
+    "url": "https://openai.com/index/testing-robustness",
+    "description": "We’ve developed a method to assess whether a neural network classifier can reliably defend against adversarial attacks not seen during training. Our method yields a new metric, UAR (Unforeseen Attack"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-2",
+    "date": "2019-08-20",
+    "url": "https://openai.com/index/gpt-2-6-month-follow-up",
+    "description": "We’re releasing the 774 million parameter GPT-2 language model after the release of our small 124M model in February, staged release of our medium 355M model in May, and subsequent research with partn"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "MuseNet",
+    "date": "2019-04-25",
+    "url": "https://openai.com/index/musenet",
+    "description": "We’ve created MuseNet, a deep neural network that can generate 4-minute musical compositions with 10 different instruments, and can combine styles from country to Mozart to the Beatles. MuseNet was no"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI Five defeats Dota 2 world champions",
+    "date": "2019-04-15",
+    "url": "https://openai.com/index/openai-five-defeats-dota-2-world-champions",
+    "description": "OpenAI Five is the first AI to beat the world champions in an esports game, having won two back-to-back games versus the world champion Dota 2 team, OG, at Finals this weekend. Both OpenAI Five and De"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Better language models",
+    "date": "2019-02-14",
+    "url": "https://openai.com/index/better-language-models",
+    "description": "We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentar"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Learning concepts",
+    "date": "2018-11-07",
+    "url": "https://openai.com/index/learning-concepts-with-energy-functions",
+    "description": "We’ve developed an energy-based model that can quickly learn to identify and generate instances of concepts, such as near, above, between, closest, and furthest, expressed as sets of 2d points. Our mo"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Plan online, learn offline",
+    "date": "2018-11-05",
+    "url": "https://openai.com/index/plan-online-learn-offline",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Glow",
+    "date": "2018-07-09",
+    "url": "https://openai.com/index/glow",
+    "description": "We introduce Glow, a reversible generative model which uses invertible 1x1 convolutions. It extends previous work on reversible generative models and simplifies the architecture. Our model can generat"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Learning to model other minds",
+    "date": "2017-09-14",
+    "url": "https://openai.com/index/learning-to-model-other-minds",
+    "description": "We’re releasing an algorithm which accounts for the fact that other agents are learning too, and discovers self-interested yet collaborative strategies like tit-for-tat in the iterated prisoner’s dile"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "OpenAI Baselines",
+    "date": "2017-05-24",
+    "url": "https://openai.com/index/openai-baselines-dqn",
+    "description": "We’re open-sourcing OpenAI Baselines, our internal effort to reproduce reinforcement learning algorithms with performance on par with published results. We’ll release the algorithms over upcoming mont"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Distill",
+    "date": "2017-03-20",
+    "url": "https://openai.com/index/distill",
+    "description": "We’re excited to support today’s launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing)."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Attacking machine learning",
+    "date": "2017-02-24",
+    "url": "https://openai.com/index/attacking-machine-learning-with-adversarial-examples",
+    "description": "Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to cause the model to make a mistake; they’re like optical illusions for machines. In this post w"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Transfer from simulation to real world through learning deep inverse dynamics model",
+    "date": "2016-10-11",
+    "url": "https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+    "description": ""
   }
 ]
