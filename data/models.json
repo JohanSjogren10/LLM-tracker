@@ -337,6 +337,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Where the goblins came from",
+    "date": "2026-04-29",
+    "url": "https://openai.com/index/where-the-goblins-came-from",
+    "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior."
+  },
+  {
+    "provider": "OpenAI",
     "model": "OpenAI models, Codex,",
     "date": "2026-04-28",
     "url": "https://openai.com/index/openai-on-aws",
