@@ -1,6 +1,13 @@
 [
   {
     "provider": "Google DeepMind",
+    "model": "Enabling a new model for healthcare",
+    "date": "2026-05-01",
+    "url": "https://deepmind.google/blog/ai-co-clinician/",
+    "description": "Researching the path to AI-augmented care and development of an AI co-clinician."
+  },
+  {
+    "provider": "Google DeepMind",
     "model": "Gemini 3.1 Flash TTS",
     "date": "2026-04-29",
     "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
