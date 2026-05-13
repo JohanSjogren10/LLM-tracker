@@ -1,5 +1,26 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "How finance teams use Codex",
+    "date": "2026-05-12",
+    "url": "https://openai.com/academy/how-finance-teams-use-codex",
+    "description": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How NVIDIA engineers",
+    "date": "2026-05-12",
+    "url": "https://openai.com/index/nvidia",
+    "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "What Parameter Golf taught us about AI-assisted research",
+    "date": "2026-05-12",
+    "url": "https://openai.com/index/what-parameter-golf-taught-us",
+    "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint"
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Enabling a new model for healthcare",
     "date": "2026-05-01",
