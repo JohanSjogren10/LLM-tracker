@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/llm_tracker.db
+.env

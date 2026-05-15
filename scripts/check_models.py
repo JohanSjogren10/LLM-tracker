@@ -178,22 +178,69 @@ def extract_model_name(title: str) -> str:
     return title.strip() or title
 
 
+def get_notify_recipients() -> list[str]:
+    """Return a list of email addresses to notify.
+
+    Sources (in order):
+      1. All users with notifications enabled in the SQLite database
+         (data/llm_tracker.db) — this is the primary source when the
+         server is running.
+      2. The NOTIFY_EMAIL environment variable (comma-separated) as a
+         fallback for CI / GitHub Actions where the database may not
+         have subscribers yet.
+    """
+    import sqlite3 as _sqlite3
+
+    db_path = Path(__file__).parent.parent / "data" / "llm_tracker.db"
+    emails: list[str] = []
+
+    if db_path.exists():
+        try:
+            conn = _sqlite3.connect(str(db_path))
+            cur = conn.execute("SELECT email FROM users WHERE notify_enabled = 1")
+            emails = [row[0] for row in cur.fetchall()]
+            conn.close()
+            print(f"[INFO] Found {len(emails)} subscriber(s) in database.")
+        except _sqlite3.Error as exc:
+            print(f"[WARN] Could not read subscribers from DB: {exc}", file=sys.stderr)
+
+    # Fallback / additional recipients from environment variable
+    env_emails = os.environ.get("NOTIFY_EMAIL", "")
+    if env_emails:
+        for addr in env_emails.split(","):
+            addr = addr.strip()
+            if addr and addr not in emails:
+                emails.append(addr)
+
+    return emails
+
+
 def send_email(new_models: list[dict]) -> None:
     """Send an email notification for newly detected models."""
     smtp_server = os.environ.get("SMTP_SERVER", "smtp.gmail.com")
     smtp_port = int(os.environ.get("SMTP_PORT", "587"))
     smtp_user = os.environ.get("SMTP_USER", "")
     smtp_password = os.environ.get("SMTP_PASSWORD", "")
-    notify_email = os.environ.get("NOTIFY_EMAIL", "")
 
-    if not smtp_user or not smtp_password or not notify_email:
-        print("[INFO] SMTP credentials or NOTIFY_EMAIL not set — skipping email notification.", file=sys.stderr)
+    if not smtp_user or not smtp_password:
+        print("[INFO] SMTP credentials not set — skipping email notification.", file=sys.stderr)
         return
 
-    for model in new_models:
-        subject = f"🚀 New LLM Released: {model['model']} by {model['provider']}"
+    recipients = get_notify_recipients()
+    if not recipients:
+        print("[INFO] No notification recipients configured — skipping email.", file=sys.stderr)
+        return
 
-        body_html = f"""\
+    try:
+        with smtplib.SMTP(smtp_server, smtp_port) as smtp_conn:
+            smtp_conn.ehlo()
+            smtp_conn.starttls()
+            smtp_conn.login(smtp_user, smtp_password)
+
+            for model in new_models:
+                subject = f"🚀 New LLM Released: {model['model']} by {model['provider']}"
+
+                body_html = f"""\
 <html>
 <body style="font-family: Arial, sans-serif; background: #0d1117; color: #e6edf3; padding: 20px;">
   <h2 style="color: #58a6ff;">🚀 New LLM Detected!</h2>
@@ -230,21 +277,20 @@ def send_email(new_models: list[dict]) -> None:
 </html>
 """
 
-        msg = MIMEMultipart("alternative")
-        msg["Subject"] = subject
-        msg["From"] = smtp_user
-        msg["To"] = notify_email
-        msg.attach(MIMEText(body_html, "html"))
+                for recipient in recipients:
+                    msg = MIMEMultipart("alternative")
+                    msg["Subject"] = subject
+                    msg["From"] = smtp_user
+                    msg["To"] = recipient
+                    msg.attach(MIMEText(body_html, "html"))
 
-        try:
-            with smtplib.SMTP(smtp_server, smtp_port) as server:
-                server.ehlo()
-                server.starttls()
-                server.login(smtp_user, smtp_password)
-                server.sendmail(smtp_user, [notify_email], msg.as_string())
-            print(f"[INFO] Email sent for {model['model']} to {notify_email}")
-        except smtplib.SMTPException as exc:
-            print(f"[ERROR] Failed to send email: {exc}", file=sys.stderr)
+                    try:
+                        smtp_conn.sendmail(smtp_user, [recipient], msg.as_string())
+                        print(f"[INFO] Email sent for {model['model']} to {recipient}")
+                    except smtplib.SMTPException as exc:
+                        print(f"[ERROR] Failed to send email to {recipient}: {exc}", file=sys.stderr)
+    except smtplib.SMTPException as exc:
+        print(f"[ERROR] Failed to connect to SMTP server: {exc}", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
