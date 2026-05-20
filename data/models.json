@@ -1,5 +1,40 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini Omni",
+    "date": "2026-05-20",
+    "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini for Science",
+    "date": "2026-05-20",
+    "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+    "description": "A collection of science tools and experiments to expand the scale and precision of scientific exploration."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
+    "date": "2026-05-20",
+    "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+    "description": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of  the historic Hurricane Melissa."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.5",
+    "date": "2026-05-20",
+    "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+    "description": "Gemini 3.5 is built to help you execute complex, agentic workflows."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Co-Scientist",
+    "date": "2026-05-20",
+    "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+    "description": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs."
+  },
+  {
     "provider": "OpenAI",
     "model": "How finance teams use Codex",
     "date": "2026-05-12",
