@@ -36,6 +36,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "How Ramp engineers accelerate code review",
+    "date": "2026-05-20",
+    "url": "https://openai.com/index/ramp",
+    "description": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours."
+  },
+  {
+    "provider": "OpenAI",
     "model": "How finance teams use Codex",
     "date": "2026-05-12",
     "url": "https://openai.com/academy/how-finance-teams-use-codex",
