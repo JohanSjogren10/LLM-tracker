@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "Strengthening societal resilience",
+    "date": "2026-05-29",
+    "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+    "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through"
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini Omni",
     "date": "2026-05-20",
