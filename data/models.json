@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "How Wasmer used Codex to build a Node.js runtime for the edge",
+    "date": "2026-06-03",
+    "url": "https://openai.com/index/wasmer",
+    "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Strengthening societal resilience",
     "date": "2026-05-29",
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
