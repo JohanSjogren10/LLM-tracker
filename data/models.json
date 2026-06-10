@@ -1,6 +1,34 @@
 [
   {
     "provider": "OpenAI",
+    "model": "From data to decisions",
+    "date": "2026-06-10",
+    "url": "https://openai.com/index/lseg",
+    "description": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees."
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemma 4 12B",
+    "date": "2026-06-10",
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Measuring the impact of learning",
+    "date": "2026-06-10",
+    "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "description": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How engineers at Nextdoor use Codex to build without limits",
+    "date": "2026-06-09",
+    "url": "https://openai.com/index/nextdoor",
+    "description": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes."
+  },
+  {
+    "provider": "OpenAI",
     "model": "How Wasmer used Codex to build a Node.js runtime for the edge",
     "date": "2026-06-03",
     "url": "https://openai.com/index/wasmer",
