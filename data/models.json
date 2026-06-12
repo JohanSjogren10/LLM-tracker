@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "How Preply combines AI",
+    "date": "2026-06-12",
+    "url": "https://openai.com/index/preply",
+    "description": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises."
+  },
+  {
+    "provider": "OpenAI",
     "model": "From data to decisions",
     "date": "2026-06-10",
     "url": "https://openai.com/index/lseg",
