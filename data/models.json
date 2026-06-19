@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "date": "2026-06-18",
+    "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases."
+  },
+  {
+    "provider": "OpenAI",
     "model": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
     "date": "2026-06-17",
     "url": "https://openai.com/index/ai-chemist-improves-reaction",
