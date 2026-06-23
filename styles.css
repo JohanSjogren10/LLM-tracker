@@ -70,10 +70,6 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 }
 
 .theme-toggle {
-  position: absolute;
-  top: 50%;
-  right: 1.25rem;
-  transform: translateY(-50%);
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 20px;
@@ -314,4 +310,189 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   .providers-grid { grid-template-columns: 1fr; }
   .feed-item { flex-wrap: wrap; }
   .feed-date { width: 100%; text-align: right; }
+  .header-actions { position: static; transform: none; justify-content: center; margin-top: 0.75rem; }
+  .site-header { padding-bottom: 1rem; }
+}
+
+/* ── Header actions (auth + theme toggle) ────────────────── */
+.header-actions {
+  position: absolute;
+  top: 50%;
+  right: 1.25rem;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* ── Auth area ───────────────────────────────────────────── */
+.auth-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth-logged-out, .auth-logged-in {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-email {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Buttons ─────────────────────────────────────────────── */
+.btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-family: var(--font);
+  color: var(--text-primary);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  background: var(--bg-card-hover);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.btn-sm { padding: 0.3rem 0.65rem; }
+
+.btn-full { width: 100%; padding: 0.6rem; font-size: 0.9rem; }
+
+/* ── Notification toggle ─────────────────────────────────── */
+.notify-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.notify-toggle input[type="checkbox"] {
+  accent-color: var(--accent);
+}
+
+/* ── Modal ────────────────────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-close:hover { color: var(--text-primary); }
+
+.modal-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-primary);
+}
+
+.modal-card label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.3rem;
+  margin-top: 0.75rem;
+}
+
+.modal-card label:first-of-type { margin-top: 0; }
+
+.modal-card input[type="email"],
+.modal-card input[type="password"] {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-family: var(--font);
+  transition: border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.modal-card input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.auth-error {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(248, 81, 73, 0.1);
+  border: 1px solid #f85149;
+  border-radius: 6px;
+  color: #f85149;
+  font-size: 0.82rem;
+}
+
+.modal-card button[type="submit"] {
+  margin-top: 1.25rem;
+}
+
+.modal-switch {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.modal-switch a {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.modal-switch a:hover {
+  text-decoration: underline;
 }

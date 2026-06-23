@@ -1,6 +1,6 @@
 # 🤖 LLM Tracker
 
-A clean, dark-mode dashboard that automatically tracks the latest AI/LLM model releases from major providers and sends email notifications when new models are detected.
+A clean, dark-mode dashboard that automatically tracks the latest AI/LLM model releases from major providers and sends email notifications to all registered users when new models are detected.
 
 **Live site:** [https://JohanSjogren10.github.io/LLM-tracker](https://JohanSjogren10.github.io/LLM-tracker)
 
@@ -10,9 +10,45 @@ A clean, dark-mode dashboard that automatically tracks the latest AI/LLM model r
 
 - Displays the latest LLM releases from **OpenAI, Anthropic, Google DeepMind, Meta, Mistral, xAI (Grok), and Amazon** in a responsive dark-mode dashboard
 - Shows a **"Latest Releases" feed** sorted by date across all providers
+- **User accounts** — anyone can sign up with an email and password
+- **Email notifications** — registered users can opt in/out of email alerts for new model releases
 - Runs a **daily GitHub Actions workflow** that checks RSS feeds from each provider for new model announcements
-- **Sends an email notification** to the configured address whenever a new model is detected
+- **Sends email notifications** to all subscribed users whenever a new model is detected
 - Automatically commits updated model data back to the repository
+
+---
+
+## User Accounts & Notifications
+
+The app includes a simple account system powered by **Flask + SQLite**:
+
+1. Click **Sign up** on the site to create an account with your email and password
+2. Once logged in, the **📧 Notify me** checkbox controls whether you receive email notifications
+3. When the model checker detects a new release, it emails every user who has notifications enabled
+
+Passwords are hashed with **bcrypt** and never stored in plain text.
+
+---
+
+## Running the Server
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the server (serves the frontend + API)
+python server.py
+```
+
+The app runs at **http://localhost:5000** by default. Set the `PORT` environment variable to change it.
+
+### Environment Variables
+
+| Variable | Description | Default |
+|---|---|---|
+| `SECRET_KEY` | Flask session secret key | Auto-generated |
+| `PORT` | Server port | `5000` |
+| `FLASK_DEBUG` | Set to `1` for debug mode | `0` |
 
 ---
 
@@ -23,7 +59,9 @@ A clean, dark-mode dashboard that automatically tracks the latest AI/LLM model r
 3. If a new model is detected, the script:
    - Appends the new entry to `data/models.json`
    - Commits and pushes the change (which triggers a fresh GitHub Pages deployment)
-   - Sends an HTML email notification with the model name, provider, date, description, and a link
+   - Reads all subscribed user emails from the SQLite database (`data/llm_tracker.db`)
+   - Falls back to the `NOTIFY_EMAIL` environment variable if no database subscribers exist
+   - Sends an HTML email notification to each subscriber with the model name, provider, date, description, and a link
 
 ---
 
@@ -42,7 +80,7 @@ Go to **Settings → Secrets and variables → Actions** in your repository and 
 
 > **Using Gmail?** Enable 2-Factor Authentication and generate an [App Password](https://support.google.com/accounts/answer/185833). Use that App Password as `NOTIFICATION_EMAIL_PASSWORD`.
 
-The recipient address is hardcoded to `Johan.sjogren@tieto.com`. To change it, update `NOTIFY_EMAIL` in `.github/workflows/check-models.yml`.
+The `NOTIFY_EMAIL` environment variable serves as a fallback recipient (comma-separated for multiple addresses). When users register on the site and enable notifications, their emails are read directly from the database.
 
 ---
 
@@ -60,9 +98,12 @@ The recipient address is hardcoded to `Johan.sjogren@tieto.com`. To change it, u
 LLM-tracker/
 ├── index.html                  # Main page
 ├── styles.css                  # Dark mode styles
-├── app.js                      # Fetches models.json and renders the UI
+├── app.js                      # Fetches models.json, renders UI, handles auth
+├── server.py                   # Flask backend (auth, notifications, static serving)
+├── requirements.txt            # Python dependencies (Flask, bcrypt)
 ├── data/
-│   └── models.json             # Model data (auto-updated by workflow)
+│   ├── models.json             # Model data (auto-updated by workflow)
+│   └── llm_tracker.db          # SQLite database (auto-created, gitignored)
 ├── scripts/
 │   └── check_models.py         # RSS checker & email sender
 └── .github/
@@ -111,20 +152,18 @@ The site is deployed automatically on every push to `main` via the `deploy.yml` 
 
 ## Running Locally
 
-Since this is a plain HTML/CSS/JS site, you can preview it locally with any static file server:
-
 ```bash
 # Clone the repo
 git clone https://github.com/JohanSjogren10/LLM-tracker.git
 cd LLM-tracker
 
-# Option 1 — Python (built-in)
-python3 -m http.server 8000
+# Install Python dependencies
+pip install -r requirements.txt
 
-# Option 2 — Node.js (if you have npx)
-npx serve .
+# Start the Flask server (serves frontend + API)
+python server.py
 ```
 
-Then open **http://localhost:8000** in your browser.
+Then open **http://localhost:5000** in your browser.
 
-> **Tip:** Opening `index.html` directly as a file won't work because the browser blocks `fetch()` requests from `file://` URLs. Always use a local server.
+> **Note:** You can still preview just the static frontend with `python3 -m http.server 8000`, but user accounts and notifications require the Flask server.
