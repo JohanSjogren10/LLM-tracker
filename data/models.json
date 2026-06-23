@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "Daybreak",
+    "date": "2026-06-22",
+    "url": "https://openai.com/index/daybreak-securing-the-world",
+    "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Using AI to help physicians diagnose rare genetic diseases affecting children",
     "date": "2026-06-18",
     "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
