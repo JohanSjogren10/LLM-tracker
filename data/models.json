@@ -1,6 +1,20 @@
 [
   {
     "provider": "OpenAI",
+    "model": "GeneBench-Pro",
+    "date": "2026-06-30",
+    "url": "https://openai.com/index/introducing-genebench-pro",
+    "description": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Inside Genebench-Pro",
+    "date": "2026-06-30",
+    "url": "https://openai.com/index/genebench-pro/case-studies",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
     "model": "Daybreak",
     "date": "2026-06-22",
     "url": "https://openai.com/index/daybreak-securing-the-world",
