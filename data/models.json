@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "GPT-Live",
+    "date": "2026-07-08",
+    "url": "https://openai.com/index/introducing-gpt-live",
+    "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
+  },
+  {
+    "provider": "OpenAI",
     "model": "GeneBench-Pro",
     "date": "2026-06-30",
     "url": "https://openai.com/index/introducing-genebench-pro",
