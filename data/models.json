@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Empowering India’s next generation of innovators",
+    "date": "2026-07-14",
+    "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+    "description": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
+  },
+  {
     "provider": "OpenAI",
     "model": "GPT-Live",
     "date": "2026-07-08",
