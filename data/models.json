@@ -1,5 +1,19 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics ER 2",
+    "date": "2026-07-31",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+    "description": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic app"
+  },
+  {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics 2 brings whole body intelligence to robots",
+    "date": "2026-07-31",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
     "date": "2026-07-29",
