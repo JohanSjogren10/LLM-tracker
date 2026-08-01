@@ -1709,6 +1709,20 @@
   },
   {
     "provider": "OpenAI",
+    "model": "IUVM",
+    "date": "2024-05-01",
+    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm",
+    "description": "OpenAI banned accounts associated with the Iran-origin operation \"IUVM\", using AI to generate and translate pro-Iran, anti-Israel and anti-US website content."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Operation \"Zero Zeno\"",
+    "date": "2024-05-01",
+    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno",
+    "description": "OpenAI banned accounts linked to a previously unreprorted Israel-origin operation we dubbed “Zero Zeno,” using AI to generate anti-Hamas, anti-Qatar, pro-Israel, anti-BJP, and pro-Histadrut content."
+  },
+  {
+    "provider": "OpenAI",
     "model": "GPT-4 API general availability",
     "date": "2024-04-24",
     "url": "https://openai.com/index/gpt-4-api-general-availability",
