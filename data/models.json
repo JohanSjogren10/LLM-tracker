@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "How we built a realtime system for responsive voice AI in six months",
+    "date": "2026-08-03",
+    "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+    "description": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini Robotics ER 2",
     "date": "2026-07-31",
