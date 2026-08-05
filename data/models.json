@@ -56,6 +56,13 @@
     "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
   },
   {
+    "provider": "Mistral",
+    "model": "Robostral Navigate",
+    "date": "2026-07-08",
+    "url": "https://mistral.ai/news/robostral-navigate/",
+    "description": "Introducing Robostral Navigate: 8B model achieving 76.6% on R2R-CE with just a single RGB camera. No depth sensors, LiDAR, or multiple cameras needed."
+  },
+  {
     "provider": "OpenAI",
     "model": "GeneBench-Pro",
     "date": "2026-06-30",
@@ -68,6 +75,13 @@
     "date": "2026-06-30",
     "url": "https://openai.com/index/genebench-pro/case-studies",
     "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral OCR 4",
+    "date": "2026-06-23",
+    "url": "https://mistral.ai/news/ocr-4/",
+    "description": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment."
   },
   {
     "provider": "OpenAI",
@@ -159,6 +173,27 @@
     "date": "2026-05-29",
     "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
     "description": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems."
+  },
+  {
+    "provider": "Mistral",
+    "model": "physics AI at Mistral",
+    "date": "2026-05-27",
+    "url": "https://mistral.ai/news/introducing-physics-ai-at-mistral/",
+    "description": "A new class of AI models that predict the behavior of physical systems, powering the engineers and hardware products of tomorrow."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Emmi joins Mistral to accelerate the AI-native industry",
+    "date": "2026-05-23",
+    "url": "https://mistral.ai/news/accelerate-ai-native-industry/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Remote agents in Vibe. Powered by Mistral Medium 3.5.",
+    "date": "2026-05-22",
+    "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+    "description": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks."
   },
   {
     "provider": "Google DeepMind",
@@ -693,6 +728,27 @@
     "description": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approac"
   },
   {
+    "provider": "Mistral",
+    "model": "Speaking of Voxtral",
+    "date": "2026-03-23",
+    "url": "https://mistral.ai/news/voxtral-tts/",
+    "description": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Small 4",
+    "date": "2026-03-16",
+    "url": "https://mistral.ai/news/mistral-small-4/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral AI partners",
+    "date": "2026-03-16",
+    "url": "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "From model to agent",
     "date": "2026-03-11",
@@ -791,6 +847,13 @@
     "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place."
   },
   {
+    "provider": "Mistral",
+    "model": "Terminally online Mistral Vibe.",
+    "date": "2026-01-27",
+    "url": "https://mistral.ai/news/mistral-vibe-2-0/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "Inside Praktika's conversational approach to language learning",
     "date": "2026-01-22",
@@ -847,6 +910,13 @@
     "description": "OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science. The update strengthen"
   },
   {
+    "provider": "Mistral",
+    "model": "Mistral OCR 3",
+    "date": "2025-12-17",
+    "url": "https://mistral.ai/news/mistral-ocr-3/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "Measuring AI’s capability to accelerate biological research",
     "date": "2025-12-16",
@@ -875,6 +945,13 @@
     "description": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations."
   },
   {
+    "provider": "Mistral",
+    "model": "Introducing",
+    "date": "2025-12-09",
+    "url": "https://mistral.ai/news/devstral-2-vibe-cli/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "How confessions can keep language models honest",
     "date": "2025-12-03",
@@ -887,6 +964,13 @@
     "date": "2025-12-03",
     "url": "https://openai.com/index/openai-to-acquire-neptune",
     "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral 3",
+    "date": "2025-12-02",
+    "url": "https://mistral.ai/news/mistral-3/",
+    "description": ""
   },
   {
     "provider": "OpenAI",
@@ -915,6 +999,13 @@
     "date": "2025-11-19",
     "url": "https://openai.com/index/strengthening-safety-with-external-testing",
     "description": "OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess model capabilities and"
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral AI",
+    "date": "2025-11-19",
+    "url": "https://mistral.ai/news/ki-fur-deutschland/",
+    "description": ""
   },
   {
     "provider": "Google DeepMind",
@@ -985,6 +1076,13 @@
     "date": "2025-10-28",
     "url": "https://openai.com/index/doppel",
     "description": "Doppel uses GPT-5 and reinforcement fine-tuning to stop deepfake and impersonation attacks, cutting analyst workloads by 80% and reducing response times from hours to minutes."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral AI Studio.",
+    "date": "2025-10-24",
+    "url": "https://mistral.ai/news/ai-studio/",
+    "description": ""
   },
   {
     "provider": "Anthropic",
@@ -1062,6 +1160,13 @@
     "date": "2025-09-09",
     "url": "https://openai.com/index/safetykit",
     "description": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy ."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral AI raises 1.7B€ to accelerate technological progress",
+    "date": "2025-09-09",
+    "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/",
+    "description": ""
   },
   {
     "provider": "OpenAI",
@@ -1155,6 +1260,13 @@
     "description": "OpenAI's unified GPT-5 with Instant and Thinking modes for general and deep reasoning tasks."
   },
   {
+    "provider": "Mistral",
+    "model": "Codestral 25.08",
+    "date": "2025-07-30",
+    "url": "https://mistral.ai/news/codestral-25-08/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "Resolving digital threats 100x faster",
     "date": "2025-07-24",
@@ -1218,11 +1330,32 @@
     "description": "Fast, efficient model optimized for enterprise and developer use with thinking capabilities."
   },
   {
+    "provider": "Mistral",
+    "model": "Mistral Compute",
+    "date": "2025-06-11",
+    "url": "https://mistral.ai/news/mistral-compute/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "o3-pro",
     "date": "2025-06-10",
     "url": "https://openai.com/index/o3-pro/",
     "description": "OpenAI's most rigorous reasoning model designed for extremely challenging math, science and coding."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Code",
+    "date": "2025-06-04",
+    "url": "https://mistral.ai/news/mistral-code/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Build AI agents",
+    "date": "2025-05-27",
+    "url": "https://mistral.ai/news/agents-api/",
+    "description": ""
   },
   {
     "provider": "Anthropic",
@@ -1337,6 +1470,13 @@
     "description": "Compact multimodal model with vision support and 128k context window."
   },
   {
+    "provider": "Mistral",
+    "model": "Mistral OCR",
+    "date": "2025-03-06",
+    "url": "https://mistral.ai/news/mistral-ocr/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "GPT-4.5",
     "date": "2025-02-27",
@@ -1356,6 +1496,13 @@
     "date": "2025-02-17",
     "url": "https://x.ai/blog/grok-3",
     "description": "Trained on the Colossus supercluster with deep reasoning and strong benchmark performance."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Saba",
+    "date": "2025-02-17",
+    "url": "https://mistral.ai/news/mistral-saba/",
+    "description": ""
   },
   {
     "provider": "OpenAI",
@@ -1391,6 +1538,13 @@
     "date": "2025-02-02",
     "url": "https://openai.com/index/introducing-deep-research",
     "description": "An agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks for you. Available to Pro users today, Plus and Team next."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Small 3",
+    "date": "2025-01-30",
+    "url": "https://mistral.ai/news/mistral-small-3/",
+    "description": ""
   },
   {
     "provider": "OpenAI",
@@ -1498,6 +1652,34 @@
     "description": "Mistral's flagship model with state-of-the-art reasoning and coding capabilities."
   },
   {
+    "provider": "Mistral",
+    "model": "Mistral has entered the chat",
+    "date": "2024-11-18",
+    "url": "https://mistral.ai/news/mistral-chat/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Pixtral Large",
+    "date": "2024-11-18",
+    "url": "https://mistral.ai/news/pixtral-large/",
+    "description": "Pixtral Large is deprecated. Discover Mistral AI’s latest vision models and capabilities in our updated documentation."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Batch API",
+    "date": "2024-11-07",
+    "url": "https://mistral.ai/news/batch-api/",
+    "description": "Lower cost API for AI builders."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral Moderation API",
+    "date": "2024-11-07",
+    "url": "https://mistral.ai/news/mistral-moderation/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "vision to the fine-tuning API",
     "date": "2024-10-01",
@@ -1545,6 +1727,13 @@
     "date": "2024-09-17",
     "url": "https://openai.com/index/arco-education",
     "description": "Improving teaching and learning in Brazil"
+  },
+  {
+    "provider": "Mistral",
+    "model": "Pixtral 12B",
+    "date": "2024-09-17",
+    "url": "https://mistral.ai/news/pixtral-12b/",
+    "description": "Pixtral 12B is deprecated. Discover Mistral AI’s latest vision models and capabilities in our updated documentation."
   },
   {
     "provider": "OpenAI",
@@ -1645,6 +1834,13 @@
     "description": "Compliance API integrations, SCIM, and GPT controls to support compliance programs, data security, and user access at scale"
   },
   {
+    "provider": "Mistral",
+    "model": "Mistral NeMo",
+    "date": "2024-07-18",
+    "url": "https://mistral.ai/news/mistral-nemo/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "Prover-Verifier Games improve legibility of language model outputs",
     "date": "2024-07-17",
@@ -1680,11 +1876,32 @@
     "description": "Using new techniques for scaling sparse autoencoders, we automatically identified 16 million patterns in GPT-4's computations."
   },
   {
+    "provider": "Mistral",
+    "model": "My Tailor is Mistral",
+    "date": "2024-06-05",
+    "url": "https://mistral.ai/news/customization/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral AI Fine-tuning Hackathon",
+    "date": "2024-06-05",
+    "url": "https://mistral.ai/news/2024-ft-hackathon/",
+    "description": "We are thrilled to announce the Mistral AI fine-tuning hackathon, a virtual experience taking place from June 5 - 30, 2024."
+  },
+  {
     "provider": "OpenAI",
     "model": "Automating customer support agents",
     "date": "2024-05-29",
     "url": "https://openai.com/index/mavenagi",
     "description": "MavenAGI is a new software company for the AI era. They recently launched an AI customer service agent, built on the flexibility of GPT-4, which a number of companies like Tripadvisor, Clickup and Rho"
+  },
+  {
+    "provider": "Mistral",
+    "model": "The Mistral AI Non-Production License",
+    "date": "2024-05-29",
+    "url": "https://mistral.ai/news/mistral-ai-non-production-license-mnpl/",
+    "description": ""
   },
   {
     "provider": "OpenAI",
@@ -1846,6 +2063,20 @@
     "date": "2023-10-11",
     "url": "https://openai.com/index/typeform",
     "description": "Typeform evolves online forms into dynamic and conversational data collection experiences with GPT-3.5 and GPT-4."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral 7B",
+    "date": "2023-09-27",
+    "url": "https://mistral.ai/news/announcing-mistral-7b/",
+    "description": "The best 7B model to date, Apache 2.0"
+  },
+  {
+    "provider": "Mistral",
+    "model": "Bringing open AI models to the frontier",
+    "date": "2023-09-27",
+    "url": "https://mistral.ai/news/about-mistral-ai/",
+    "description": "Why we're building Mistral AI."
   },
   {
     "provider": "OpenAI",
