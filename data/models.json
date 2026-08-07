@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "WeatherNext",
+    "date": "2026-08-07",
+    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "How we built a realtime system for responsive voice AI in six months",
     "date": "2026-08-03",
