@@ -2255,6 +2255,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Aligning language models to follow instructions",
+    "date": "2022-01-27",
+    "url": "https://openai.com/index/instruction-following",
+    "description": "We’ve trained language models that are much better at following user intentions than GPT-3 while also making them more truthful and less toxic, using techniques developed through our alignment researc"
+  },
+  {
+    "provider": "OpenAI",
     "model": "WebGPT",
     "date": "2021-12-16",
     "url": "https://openai.com/index/webgpt",
