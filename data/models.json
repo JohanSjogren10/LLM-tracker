@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Putting sign language AI into users’ hands",
+    "date": "2026-08-13",
+    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
+  },
+  {
     "provider": "Mistral",
     "model": "In-region inference, open models,",
     "date": "2026-08-11",
