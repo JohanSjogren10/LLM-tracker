@@ -1,10 +1,24 @@
 [
   {
     "provider": "Google DeepMind",
+    "model": "Gemini 3.7 Flash",
+    "date": "2026-08-14",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
     "model": "Putting sign language AI into users’ hands",
     "date": "2026-08-13",
     "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
     "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "The builder’s guide to GPT‑5.6",
+    "date": "2026-08-13",
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities."
   },
   {
     "provider": "Mistral",
