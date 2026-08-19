@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "Pacing model development in an era of cyber-critical capabilities",
+    "date": "2026-08-18",
+    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "description": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini 3.7 Flash",
     "date": "2026-08-14",
