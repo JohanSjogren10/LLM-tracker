@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "The Hugging Face incident",
+    "date": "2026-08-26",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "description": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Advancing price-performance for developers",
     "date": "2026-08-24",
     "url": "https://openai.com/index/gpt-5-6-in-kiro",
