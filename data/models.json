@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "Supporting Thailand’s next generation of AI startups",
+    "date": "2026-08-28",
+    "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "description": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+  },
+  {
+    "provider": "OpenAI",
     "model": "The Hugging Face incident",
     "date": "2026-08-26",
     "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
