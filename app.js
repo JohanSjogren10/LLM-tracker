@@ -136,4 +136,119 @@ async function loadModels() {
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   loadModels();
+  initAuth();
 });
+
+// ── Auth ────────────────────────────────────────────────────
+let authMode = 'login'; // 'login' | 'register'
+
+function initAuth() {
+  const modal        = document.getElementById('auth-modal');
+  const modalTitle   = document.getElementById('modal-title');
+  const modalSwitch  = document.getElementById('modal-switch');
+  const authForm     = document.getElementById('auth-form');
+  const authSubmit   = document.getElementById('auth-submit');
+  const authError    = document.getElementById('auth-error');
+  const authEmail    = document.getElementById('auth-email');
+  const authPassword = document.getElementById('auth-password');
+
+  const loggedOut    = document.getElementById('auth-logged-out');
+  const loggedIn     = document.getElementById('auth-logged-in');
+  const userEmail    = document.getElementById('user-email');
+  const notifyCheck  = document.getElementById('notify-checkbox');
+
+  function showModal(mode) {
+    authMode = mode;
+    authError.style.display = 'none';
+    authEmail.value = '';
+    authPassword.value = '';
+    if (mode === 'login') {
+      modalTitle.textContent = 'Log in';
+      authSubmit.textContent = 'Log in';
+      authPassword.autocomplete = 'current-password';
+      modalSwitch.innerHTML = 'Don\'t have an account? <a href="#" id="switch-to-register">Sign up</a>';
+    } else {
+      modalTitle.textContent = 'Create account';
+      authSubmit.textContent = 'Sign up';
+      authPassword.autocomplete = 'new-password';
+      modalSwitch.innerHTML = 'Already have an account? <a href="#" id="switch-to-login">Log in</a>';
+    }
+    modal.style.display = 'flex';
+    authEmail.focus();
+    // Bind switch links
+    const switchLink = modalSwitch.querySelector('a');
+    if (switchLink) {
+      switchLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        showModal(mode === 'login' ? 'register' : 'login');
+      });
+    }
+  }
+
+  function hideModal() {
+    modal.style.display = 'none';
+  }
+
+  function showUser(user) {
+    loggedOut.style.display = 'none';
+    loggedIn.style.display = 'flex';
+    userEmail.textContent = user.email;
+    notifyCheck.checked = user.notify_enabled;
+  }
+
+  function showLoggedOut() {
+    loggedOut.style.display = 'flex';
+    loggedIn.style.display = 'none';
+    userEmail.textContent = '';
+  }
+
+  // Check session on load
+  fetch('/api/me')
+    .then(r => r.ok ? r.json() : null)
+    .then(user => { if (user && user.email) showUser(user); })
+    .catch(() => {});
+
+  document.getElementById('btn-show-login').addEventListener('click', () => showModal('login'));
+  document.getElementById('btn-show-register').addEventListener('click', () => showModal('register'));
+  document.getElementById('modal-close').addEventListener('click', hideModal);
+  modal.addEventListener('click', (e) => { if (e.target === modal) hideModal(); });
+
+  authForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    authError.style.display = 'none';
+    const endpoint = authMode === 'login' ? '/api/login' : '/api/register';
+    try {
+      const resp = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: authEmail.value.trim(), password: authPassword.value }),
+      });
+      const data = await resp.json();
+      if (!resp.ok) {
+        authError.textContent = data.error || 'Something went wrong.';
+        authError.style.display = 'block';
+        return;
+      }
+      hideModal();
+      showUser(data);
+    } catch {
+      authError.textContent = 'Network error. Please try again.';
+      authError.style.display = 'block';
+    }
+  });
+
+  document.getElementById('btn-logout').addEventListener('click', async () => {
+    await fetch('/api/logout', { method: 'POST' });
+    showLoggedOut();
+  });
+
+  notifyCheck.addEventListener('change', async () => {
+    try {
+      await fetch('/api/notifications', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ enabled: notifyCheck.checked }),
+      });
+    } catch { /* ignore */ }
+  });
+}
