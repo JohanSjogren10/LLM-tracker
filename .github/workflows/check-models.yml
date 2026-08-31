@@ -42,6 +42,7 @@ jobs:
             echo "No changes to models.json"
           else
             git add data/models.json
-            git commit -m "chore: update models.json with new releases [skip ci]"
-            git push
+            git commit -m "chore: update models.json with new releases"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi

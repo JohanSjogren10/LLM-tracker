@@ -146,6 +146,12 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 
 .error-msg { color: #f85149; }
 
+.data-status {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin: -0.75rem 0 1rem;
+}
+
 /* ── Latest Feed ──────────────────────────────────────────── */
 .latest-feed {
   display: flex;

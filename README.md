@@ -22,8 +22,13 @@ A clean, dark-mode dashboard that automatically tracks the latest AI/LLM model r
 2. `scripts/check_models.py` fetches RSS feeds from each provider and compares results to `data/models.json`
 3. If a new model is detected, the script:
    - Appends the new entry to `data/models.json`
-   - Commits and pushes the change (which triggers a fresh GitHub Pages deployment)
+   - Commits and pushes the change
    - Sends an HTML email notification with the model name, provider, date, description, and a link
+4. When the `check-models` workflow finishes, the `deploy` workflow runs via a `workflow_run` trigger and publishes the updated site
+
+> **Why `workflow_run`?** Commits pushed by a workflow using the built-in `GITHUB_TOKEN` do **not** trigger `push` events, so the Pages deployment would never run on its own.
+
+Each provider is configured with several candidate feed URLs; if the first one returns 404 the script falls back to the next.
 
 ---
 
@@ -128,3 +133,25 @@ npx serve .
 Then open **http://localhost:8000** in your browser.
 
 > **Tip:** Opening `index.html` directly as a file won't work because the browser blocks `fetch()` requests from `file://` URLs. Always use a local server.
+
+---
+
+## Troubleshooting
+
+**The live site shows old data**
+
+1. Check **Actions → Deploy to GitHub Pages** — a run should appear right after each *Check for New LLM Models* run.
+2. Make sure **Settings → Pages → Source** is set to **GitHub Actions**.
+3. Hard-reload the page. The site requests `data/models.json` with a cache-busting query string and `cache: no-store`, but a proxy may still hold a copy.
+
+**No new models are ever detected**
+
+Open the latest *Check for New LLM Models* run log. `[WARN] Could not fetch …` means a provider feed URL changed — add the new URL to that provider's `urls` list in `scripts/check_models.py`.
+
+**No emails arrive**
+
+The run log prints `SMTP credentials or NOTIFY_EMAIL not set` when the `SMTP_USER` / `NOTIFICATION_EMAIL_PASSWORD` secrets are missing or empty. Add them under **Settings → Secrets and variables → Actions**.
+
+**The page shows "Failed to load model data"**
+
+Open `index.html` through a local web server (see *Running Locally*) — `fetch()` is blocked on `file://` URLs.

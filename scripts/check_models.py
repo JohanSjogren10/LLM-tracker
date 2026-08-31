@@ -13,6 +13,7 @@ Environment variables used:
   NOTIFY_EMAIL   — recipient email address
 """
 
+import html
 import json
 import os
 import re
@@ -32,33 +33,60 @@ from urllib.error import URLError
 
 MODELS_PATH = Path(__file__).parent.parent / "data" / "models.json"
 
+# Each provider lists one or more candidate feed URLs. Providers move their
+# feeds around fairly often, so the first URL that responds with parsable XML
+# wins and the rest are used as fallbacks.
 RSS_SOURCES = [
     {
         "provider": "OpenAI",
-        "url": "https://openai.com/blog/rss.xml",
+        "urls": [
+            "https://openai.com/blog/rss.xml",
+            "https://openai.com/news/rss.xml",
+        ],
     },
     {
         "provider": "Anthropic",
-        "url": "https://www.anthropic.com/rss.xml",
+        "urls": [
+            "https://www.anthropic.com/news/rss.xml",
+            "https://www.anthropic.com/rss.xml",
+        ],
     },
     {
         "provider": "Google DeepMind",
-        "url": "https://deepmind.google/blog/rss.xml",
+        "urls": [
+            "https://deepmind.google/blog/rss.xml",
+            "https://deepmind.google/discover/blog/rss.xml",
+        ],
     },
     {
         "provider": "Mistral",
-        "url": "https://mistral.ai/news/rss",
+        "urls": [
+            "https://mistral.ai/news/rss",
+            "https://mistral.ai/news/rss.xml",
+        ],
     },
     {
         "provider": "Meta",
-        "url": "https://ai.meta.com/blog/rss/",
+        "urls": [
+            "https://ai.meta.com/blog/rss/",
+            "https://ai.meta.com/blog/rss.xml",
+        ],
     },
 ]
 
-# Keywords that suggest a model release announcement
+# A post only counts as a model release when it both mentions a known model
+# family and reads like an announcement. The previous, looser matching pulled
+# in unrelated blog posts (policy updates, guides, event recaps, …).
+MODEL_NAME_PATTERN = re.compile(
+    r"\b(gpt[-\s]?\d|o[1-9]\b|chatgpt\s+\w*\d|claude|sonnet|opus|haiku|gemini|gemma|"
+    r"imagen|veo|llama|mistral|mixtral|magistral|codestral|devstral|pixtral|ministral|"
+    r"grok|nova|titan|deepseek|qwen|phi-\d|whisper|sora|dall)\b",
+    re.IGNORECASE,
+)
+
 RELEASE_KEYWORDS = re.compile(
-    r"\b(model|release|releas|introduc|launch|announc|gpt|claude|gemini|llama|"
-    r"mistral|grok|nova|o1|o3|o4|sonnet|opus|haiku|flash|pro|ultra)\b",
+    r"(\bintroduc\w*|\bannounc\w*|\blaunch\w*|\brelease[sd]?\b|\bunveil\w*|"
+    r"\bnow available\b|\bavailable now\b|\bnew model\b|\bmeet\b|\bis here\b)",
     re.IGNORECASE,
 )
 
@@ -75,14 +103,20 @@ USER_AGENT = (
 def fetch_rss(url: str) -> list[dict]:
     """Fetch and parse an RSS feed, returning a list of item dicts."""
     try:
-        req = Request(url, headers={"User-Agent": USER_AGENT})
+        req = Request(
+            url,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+            },
+        )
         with urlopen(req, timeout=20) as resp:
             data = resp.read()
         root = ET.fromstring(data)
     except URLError as exc:
         print(f"  [WARN] Could not fetch {url}: {exc}", file=sys.stderr)
         return []
-    except ET.ParseError as exc:
+    except (ET.ParseError, OSError, ValueError) as exc:
         print(f"  [WARN] Could not parse XML from {url}: {exc}", file=sys.stderr)
         return []
 
@@ -108,6 +142,16 @@ def fetch_rss(url: str) -> list[dict]:
         items.append({"title": title, "link": link, "description": desc, "date": pub_date})
 
     return items
+
+
+def fetch_first_available(urls: list[str]) -> list[dict]:
+    """Try each candidate feed URL in order, returning the first non-empty result."""
+    for url in urls:
+        print(f"  Trying {url}…")
+        items = fetch_rss(url)
+        if items:
+            return items
+    return []
 
 
 def _text(el, tag: str) -> str:
@@ -140,6 +184,15 @@ def _parse_date(raw: str) -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
+def strip_html(text: str) -> str:
+    """Remove HTML tags/entities so descriptions render cleanly on the site."""
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def load_existing_models() -> list[dict]:
     if MODELS_PATH.exists():
         with open(MODELS_PATH, encoding="utf-8") as f:
@@ -155,10 +208,19 @@ def save_models(models: list[dict]) -> None:
 
 def is_new_model(item: dict, existing: list[dict], provider: str) -> bool:
     """Return True if this RSS item looks like a new model release not yet tracked."""
-    text = f"{item['title']} {item.get('description', '')}"
-    if not RELEASE_KEYWORDS.search(text):
+    title = item.get("title") or ""
+    if not title.strip():
         return False
-    title_lower = item["title"].lower()
+    text = f"{title} {item.get('description', '')}"
+    # Require both an actual model name and release wording, and require the
+    # model name to appear in the title itself.
+    if not MODEL_NAME_PATTERN.search(title):
+        return False
+    # Either the post is worded as an announcement, or the title is a short,
+    # headline-style model name such as "Gemini 3.7 Flash".
+    if not RELEASE_KEYWORDS.search(text) and len(title.split()) > 6:
+        return False
+    title_lower = title.lower()
     for m in existing:
         if m["provider"] == provider and m["model"].lower() in title_lower:
             return False
@@ -259,8 +321,11 @@ def main() -> None:
 
     for source in RSS_SOURCES:
         provider = source["provider"]
-        print(f"[INFO] Checking {provider} ({source['url']})…")
-        items = fetch_rss(source["url"])
+        urls = source.get("urls") or [source["url"]]
+        print(f"[INFO] Checking {provider}…")
+        items = fetch_first_available(urls)
+        if not items:
+            print(f"  [WARN] No items found for {provider} — all feed URLs failed", file=sys.stderr)
         print(f"  Found {len(items)} RSS items")
 
         for item in items:
@@ -272,7 +337,7 @@ def main() -> None:
                 "model": model_name,
                 "date": item["date"],
                 "url": item["link"],
-                "description": (item.get("description") or "")[:200].strip(),
+                "description": strip_html(item.get("description") or "")[:200].strip(),
             }
             # Avoid duplicates within this run
             if entry["url"] not in existing_urls:

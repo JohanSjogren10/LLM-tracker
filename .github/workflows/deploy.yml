@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  # The model checker pushes with GITHUB_TOKEN, which never triggers a `push`
+  # event. Deploy explicitly once the checker has finished so the published
+  # site always reflects the latest data/models.json.
+  workflow_run:
+    workflows: ["Check for New LLM Models"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -25,6 +32,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
