@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "Polimill builds Japan's next-generation public AI infrastructure",
+    "date": "2026-08-31",
+    "url": "https://openai.com/index/polimill",
+    "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Supporting Thailand’s next generation of AI startups",
     "date": "2026-08-28",
     "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
