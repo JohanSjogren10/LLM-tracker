@@ -1,5 +1,19 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "agentic video understanding",
+    "date": "2026-09-02",
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Path to Astra",
+    "date": "2026-09-01",
+    "url": "https://openai.com/index/path-to-astra",
+    "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release."
+  },
+  {
     "provider": "OpenAI",
     "model": "Polimill builds Japan's next-generation public AI infrastructure",
     "date": "2026-08-31",
