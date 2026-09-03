@@ -1,6 +1,13 @@
 [
   {
     "provider": "Google DeepMind",
+    "model": "Gemini 3.8 Flash",
+    "date": "2026-09-03",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
     "model": "agentic video understanding",
     "date": "2026-09-02",
     "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
