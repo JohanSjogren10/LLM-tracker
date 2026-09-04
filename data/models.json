@@ -7,6 +7,27 @@
     "description": ""
   },
   {
+    "provider": "OpenAI",
+    "model": "Legora reviewed 41 documents in minutes",
+    "date": "2026-09-03",
+    "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "description": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Playco cut manual fixes 50% prototyping games",
+    "date": "2026-09-03",
+    "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+    "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Safety overview",
+    "date": "2026-09-03",
+    "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "description": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "agentic video understanding",
     "date": "2026-09-02",
