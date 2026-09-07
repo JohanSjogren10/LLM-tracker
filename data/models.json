@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "Supporting independent journalism in Ukraine",
+    "date": "2026-09-07",
+    "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini 3.8 Flash",
     "date": "2026-09-03",
