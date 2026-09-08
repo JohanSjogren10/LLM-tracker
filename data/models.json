@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Mistral",
+    "model": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+    "date": "2026-09-08",
+    "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+    "description": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion."
+  },
+  {
     "provider": "OpenAI",
     "model": "Supporting independent journalism in Ukraine",
     "date": "2026-09-07",
