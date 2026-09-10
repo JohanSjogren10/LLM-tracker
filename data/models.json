@@ -1,6 +1,27 @@
 [
   {
     "provider": "Mistral",
+    "model": "Cloudera",
+    "date": "2026-09-10",
+    "url": "https://mistral.ai/news/mistral-x-cloudera/",
+    "description": "Cloudera and Mistral join forces to bring specialized, sovereign AI intelligence to enterprise data, helping regulated industries innovate on their own terms."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-6 Astra",
+    "date": "2026-09-09",
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+  },
+  {
+    "provider": "Mistral",
+    "model": "Modernizing complex legacy code",
+    "date": "2026-09-09",
+    "url": "https://mistral.ai/news/legacy-code-modernization/",
+    "description": "Mistral helped a European energy operator migrate 40,000 lines of Fortran 77 to C++.  Learn how it was done, and the lessons to carry forward."
+  },
+  {
+    "provider": "Mistral",
     "model": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
     "date": "2026-09-08",
     "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
