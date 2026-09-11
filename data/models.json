@@ -8,6 +8,20 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Build more natural voice experiences",
+    "date": "2026-09-10",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "the Agents API",
+    "date": "2026-09-10",
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+  },
+  {
+    "provider": "OpenAI",
     "model": "GPT-6 Astra",
     "date": "2026-09-09",
     "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
