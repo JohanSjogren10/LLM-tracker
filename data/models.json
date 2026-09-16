@@ -1,5 +1,19 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini 3.8 Live",
+    "date": "2026-09-16",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Mistral",
+    "date": "2026-09-16",
+    "url": "https://mistral.ai/news/mistral-x-mozilla/",
+    "description": "Open, private and multilingual AI is coming to your web browser. Mistral and Mozilla team up to put powerful, trustworthy AI where you already browse."
+  },
+  {
     "provider": "OpenAI",
     "model": "Cognition helps Devin test its own work",
     "date": "2026-09-11",
