@@ -15,6 +15,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Our framework for reporting model misalignment",
+    "date": "2026-09-16",
+    "url": "https://openai.com/index/model-misalignment-reporting-framework",
+    "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Cognition helps Devin test its own work",
     "date": "2026-09-11",
     "url": "https://openai.com/index/cognition-devin-testing-with-astra",
