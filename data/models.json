@@ -22,6 +22,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Hex turns complex analysis into visual reports",
+    "date": "2026-09-16",
+    "url": "https://openai.com/index/hex-gpt-6-astra",
+    "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Cognition helps Devin test its own work",
     "date": "2026-09-11",
     "url": "https://openai.com/index/cognition-devin-testing-with-astra",
