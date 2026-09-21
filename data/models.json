@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "How V7 gives AI agents institutional memory",
+    "date": "2026-09-21",
+    "url": "https://openai.com/index/v7",
+    "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini 3.8 Live",
     "date": "2026-09-16",
