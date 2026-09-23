@@ -1,6 +1,27 @@
 [
   {
     "provider": "OpenAI",
+    "model": "Better prompt caching for GPT-6",
+    "date": "2026-09-22",
+    "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "description": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "GPT-6 Sol",
+    "date": "2026-09-22",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Parallel cut research time",
+    "date": "2026-09-22",
+    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+    "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models."
+  },
+  {
+    "provider": "OpenAI",
     "model": "How V7 gives AI agents institutional memory",
     "date": "2026-09-21",
     "url": "https://openai.com/index/v7",
