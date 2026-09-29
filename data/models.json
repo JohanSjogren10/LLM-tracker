@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Mistral",
+    "model": "Hallo, Deutschland!",
+    "date": "2026-09-28",
+    "url": "https://mistral.ai/news/hallo-deutschland/",
+    "description": "Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry."
+  },
+  {
     "provider": "OpenAI",
     "model": "Proaction boosts sales 60%",
     "date": "2026-09-25",
