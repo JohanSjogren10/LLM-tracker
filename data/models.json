@@ -1,5 +1,19 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "GPT-6.1 Sol",
+    "date": "2026-09-29",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "DevDay 2026 Recap",
+    "date": "2026-09-29",
+    "url": "https://openai.com/index/devday-2026-recap",
+    "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+  },
+  {
     "provider": "Mistral",
     "model": "Hallo, Deutschland!",
     "date": "2026-09-28",
