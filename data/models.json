@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini 4 Argon",
+    "date": "2026-10-02",
+    "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "description": ""
+  },
+  {
     "provider": "OpenAI",
     "model": "GPT-6.1 Sol",
     "date": "2026-09-29",
