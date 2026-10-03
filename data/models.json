@@ -8,6 +8,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "A model guide for the GPT-6 family",
+    "date": "2026-10-02",
+    "url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+  },
+  {
+    "provider": "OpenAI",
     "model": "GPT-6.1 Sol",
     "date": "2026-09-29",
     "url": "https://openai.com/index/introducing-gpt-6-1-sol",
