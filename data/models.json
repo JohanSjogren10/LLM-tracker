@@ -1,6 +1,20 @@
 [
   {
     "provider": "Google DeepMind",
+    "model": "EmbeddingGemma 2",
+    "date": "2026-10-07",
+    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Sharing AI progress in mathematics",
+    "date": "2026-10-06",
+    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+  },
+  {
+    "provider": "Google DeepMind",
     "model": "Gemini 4 Argon",
     "date": "2026-10-02",
     "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
