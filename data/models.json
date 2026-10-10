@@ -1205,6 +1205,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "A Practical Guide to Building AI Agents",
+    "date": "2026-01-15",
+    "url": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
+    "description": "A comprehensive guide to designing, orchestrating, and deploying AI agents—covering use cases, model selection, tool design, guardrails, and multi-agent patterns."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Netomi’s lessons for scaling agentic systems into the enterprise",
     "date": "2026-01-08",
     "url": "https://openai.com/index/netomi",
