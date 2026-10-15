@@ -8,6 +8,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "date": "2026-10-14",
+    "url": "https://openai.com/index/third-moment-research",
+    "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Higgsfield takes AI video from 1 minute to over 10",
     "date": "2026-10-13",
     "url": "https://openai.com/index/higgsfield-longer-videos-voice",
