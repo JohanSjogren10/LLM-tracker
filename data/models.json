@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Mistral",
+    "model": "Voxtral 3",
+    "date": "2026-10-20",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "description": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed."
+  },
+  {
     "provider": "OpenAI",
     "model": "Bringing GPT-Rosalind to academic research labs",
     "date": "2026-10-15",
