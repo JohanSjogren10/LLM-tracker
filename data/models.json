@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "Securing our frontier model training environment",
+    "date": "2026-10-23",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
+  },
+  {
     "provider": "Mistral",
     "model": "Voxtral 3",
     "date": "2026-10-20",
