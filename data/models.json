@@ -1,5 +1,12 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Genie 4",
+    "date": "2026-10-28",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation."
+  },
+  {
     "provider": "OpenAI",
     "model": "Securing our frontier model training environment",
     "date": "2026-10-23",
