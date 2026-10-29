@@ -1,6 +1,20 @@
 [
   {
     "provider": "Google DeepMind",
+    "model": "Gemini 4 Carbon",
+    "date": "2026-10-29",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "description": ""
+  },
+  {
+    "provider": "Mistral",
+    "model": "Le Chonk",
+    "date": "2026-10-29",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "description": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe."
+  },
+  {
+    "provider": "Google DeepMind",
     "model": "Genie 4",
     "date": "2026-10-28",
     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
