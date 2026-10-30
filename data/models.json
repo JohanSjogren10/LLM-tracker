@@ -14,6 +14,20 @@
     "description": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe."
   },
   {
+    "provider": "OpenAI",
+    "model": "An updated Model Spec for more capable",
+    "date": "2026-10-29",
+    "url": "https://openai.com/index/updated-model-spec",
+    "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How we detect frontier model misalignment",
+    "date": "2026-10-29",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Genie 4",
     "date": "2026-10-28",
