@@ -1,5 +1,12 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "GPT‑6 Cyber",
+    "date": "2026-11-05",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "description": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini 4 Carbon",
     "date": "2026-10-29",
