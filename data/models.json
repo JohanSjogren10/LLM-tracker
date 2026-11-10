@@ -1,5 +1,19 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "date": "2026-11-10",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety"
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Control Room",
+    "date": "2026-11-09",
+    "url": "https://openai.com/index/control-room",
+    "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
+  },
+  {
     "provider": "OpenAI",
     "model": "GPT‑6 Cyber",
     "date": "2026-11-05",
