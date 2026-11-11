@@ -1625,6 +1625,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "Blue J’s approach for scaling fast in complex, regulated domains",
+    "date": "2025-08-21",
+    "url": "https://openai.com/business/customer-stories/blue-j",
+    "description": "Blue J scaled to three countries and more than 3,000 firms thanks to focus, domain depth, and the right OpenAI model."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Scaling accounting capacity",
     "date": "2025-08-12",
     "url": "https://openai.com/index/basis",
