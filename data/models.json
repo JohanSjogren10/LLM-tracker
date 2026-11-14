@@ -1,6 +1,13 @@
 [
   {
     "provider": "Google DeepMind",
+    "model": "Gemini 4 Hydrogen",
+    "date": "2026-11-14",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "description": ""
+  },
+  {
+    "provider": "Google DeepMind",
     "model": "Gemini Robotics 2.5 accelerates real-world general dexterity",
     "date": "2026-11-10",
     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
