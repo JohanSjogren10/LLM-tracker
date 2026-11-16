@@ -1,5 +1,19 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "Our first phase of embedded assessments",
+    "date": "2026-11-16",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "A step toward defining the Standard Model on a lattice",
+    "date": "2026-11-15",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+  },
+  {
     "provider": "Google DeepMind",
     "model": "Gemini 4 Hydrogen",
     "date": "2026-11-14",
