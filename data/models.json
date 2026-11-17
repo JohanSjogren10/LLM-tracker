@@ -8,6 +8,13 @@
   },
   {
     "provider": "OpenAI",
+    "model": "At Holiday Extras, dots get to work before anyone asks",
+    "date": "2026-11-16",
+    "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+    "description": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work."
+  },
+  {
+    "provider": "OpenAI",
     "model": "A step toward defining the Standard Model on a lattice",
     "date": "2026-11-15",
     "url": "https://openai.com/index/step-toward-defining-the-standard-model",
