@@ -1,6 +1,13 @@
 [
   {
     "provider": "OpenAI",
+    "model": "Astra for Law leads in legal intelligence",
+    "date": "2026-11-17",
+    "url": "https://openai.com/index/astra-law-6-2",
+    "description": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
+  },
+  {
+    "provider": "OpenAI",
     "model": "Our first phase of embedded assessments",
     "date": "2026-11-16",
     "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
@@ -40,6 +47,13 @@
     "date": "2026-11-09",
     "url": "https://openai.com/index/control-room",
     "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
+  },
+  {
+    "provider": "OpenAI",
+    "model": "How VistaPrint helps small businesses get the word out",
+    "date": "2026-11-09",
+    "url": "https://openai.com/ads/customers/vistaprint",
+    "description": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded"
   },
   {
     "provider": "OpenAI",
