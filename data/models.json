@@ -1,5 +1,19 @@
 [
   {
+    "provider": "Google DeepMind",
+    "model": "Gemini 4 Neon",
+    "date": "2026-11-19",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "description": ""
+  },
+  {
+    "provider": "OpenAI",
+    "model": "Managing frontier AI risk",
+    "date": "2026-11-18",
+    "url": "https://openai.com/index/managing-frontier-ai-risk",
+    "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
+  },
+  {
     "provider": "OpenAI",
     "model": "Astra for Law leads in legal intelligence",
     "date": "2026-11-17",
